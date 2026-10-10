@@ -12,8 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.5 (Latest)` | 2.13 MB | `6591406D42A75BF73B5289BCF2C06915AB9859DE889D9FE166DEF7B2CC7AD5AD` | Full-Screen Ephemeral Media Viewer (Stitch), 2G Binary Wire Protocol, Global Search |
-| **[ATalk-v1.5.apk](ATalk-v1.5.apk)** | `v1.5` | 2.13 MB | `6591406D42A75BF73B5289BCF2C06915AB9859DE889D9FE166DEF7B2CC7AD5AD` | Stitch Ephemeral Viewer, Micro-Payload Wire Framing, Telegram Search Filters |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.5 (Latest)` | 2.13 MB | `7378304F4966EF71AA943C56DA3A1280FC03736AC225075815626A879B99CD17` | Full-Screen Ephemeral Media Viewer (Stitch), 2G Binary Wire Protocol, Global Search |
+| **[ATalk-v1.5.apk](ATalk-v1.5.apk)** | `v1.5` | 2.13 MB | `7378304F4966EF71AA943C56DA3A1280FC03736AC225075815626A879B99CD17` | Stitch Ephemeral Viewer, Micro-Payload Wire Framing, Telegram Search Filters |
 | **[ATalk-v1.4.apk](ATalk-v1.4.apk)** | `v1.4` | 2.11 MB | `6123756FB6F06AD08A2916D90C66A85F03D01CA538F8667C2C0C64F840683D94` | Real Account Setup, Full Settings Hub, Clean Bot Chat & Inset Stability |
 | **[ATalk-v1.3.apk](ATalk-v1.3.apk)** | `v1.3` | 2.11 MB | `0C85B64C4099F50C8DC8089DA11A3BE3E60C5A5D192D1BB4D072D5AD4E329938` | WebRTC Diagnostics HUD & Adaptive Opus 6-32 kbps |
 | **[ATalk-v1.2.apk](ATalk-v1.2.apk)** | `v1.2` | 2.10 MB | `5813F8002B342F720A6F2705816EAE2AAFE442F6DF0F0BDFDAA122A749B34244` | Live Decibel Waveform Dock & E2EE Call Link Modal |

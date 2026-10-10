@@ -1,8 +1,8 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.9-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-2.33%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v1.9.1-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-2.34%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
@@ -12,8 +12,9 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9 (Latest)` | 2.33 MB | `7A57B7EBF877FB371663822041D5CFBBA81278E9CEF5584762BE1048ECCF866F` | Complete Account Controls & Storage Suite: In-App Profile Edit (@handle/bio/avatar), Telegram-Style Storage & RAM Cache Manager with Selective Purge, Cryptographic Account Deletion Danger Zone, Secondary Email Linking, Dual-Channel Login (Phone / Email), Pure Kotlin 3-Way Unified OTP (Mesh + Native SMS + Email with identical code), Optional Biometrics, Play Protect Certified |
-| **[ATalk-v1.9.apk](ATalk-v1.9.apk)** | `v1.9` | 2.33 MB | `7A57B7EBF877FB371663822041D5CFBBA81278E9CEF5584762BE1048ECCF866F` | All Account Controls, Storage Management, Email Link, Dual-Channel Auth, Multi-Channel OTP Relay, Zero Flash Footprint, Zero Restricted Permissions |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9.1 (Latest)` | 2.34 MB | `7A7DCE4476F9D168AC319E34ACFC47AF0A41D95F4C9856EF5290F1578DD0C441` | Upgraded Notes Disguise & Zero Demo Data: Full local persistence, Grid/List view toggle, Pinned notes section, interactive checklists, 6-color note themes, real-time search, plus full Account Controls, Storage Manager, and Play Protect Clean In-App Mesh OTP |
+| **[ATalk-v1.9.1.apk](ATalk-v1.9.1.apk)** | `v1.9.1` | 2.34 MB | `7A7DCE4476F9D168AC319E34ACFC47AF0A41D95F4C9856EF5290F1578DD0C441` | Upgraded Notes Screen, Zero Mock Data, Persistent Local Notes, Account Controls, Play Protect Certified |
+| **[ATalk-v1.9.apk](ATalk-v1.9.apk)** | `v1.9` | 2.33 MB | `7A57B7EBF877FB371663822041D5CFBBA81278E9CEF5584762BE1048ECCF866F` | Account Controls & Storage Suite, Dual-Channel Login, Play Protect Fix |
 | **[ATalk-v1.8.apk](ATalk-v1.8.apk)** | `v1.8` | 2.23 MB | `D1D91ED13624ED0BA133C2E0EC613D77B9B9D50C14593DC7CA0EE1C2C3C3136C` | 16 Core Features + 6 UI Polish Disciplines, Pure Real Account Experience, 0 Bytes Flash Storage |
 | **[ATalk-v1.7.apk](ATalk-v1.7.apk)** | `v1.7` | 2.16 MB | `64A309380F905266D5DFC9D01A1AE04C535B953DDA2EA192BFD94AB076B7F482` | Real-time DSP Formant Masking, 5 Voice Presets (-12 to +12 st), Coercion Panic Purge |
 | **[ATalk-v1.6.apk](ATalk-v1.6.apk)** | `v1.6` | 2.13 MB | `B492F033171AEDD60F8EFE2DED6C70FAE941FCBD1D151EF3CB9B1D2E5D4FE1C3` | Disappearing Messages & Burner Mode, Strict Button-Triggered Vault Unlock, Volatile Auto-Destruct |
@@ -76,7 +77,19 @@ The complete Kotlin Jetpack Compose source code, architectural specifications, a
 
 ## 📜 Version History
 
-### `v1.9` (Latest)
+### `v1.9.1` (Latest)
+- **Upgraded Realistic Notes Cover & Total Demo Data Removal**:
+  - **Zero Demo Data Policy**: Removed all hardcoded mock notes ("Grocery list", "Workout routine", etc.). The disguise starts with a pristine, authentic empty state with quick action buttons (`New Note` / `Checklist`).
+  - **Persistent Local Notes Engine (`NotesStorage.kt`)**: User-created notes and checklists are now safely persisted in local private storage across app restarts with fast native JSON serialization.
+  - **Interactive 2-Column Grid vs 1-Column List Toggle**: Switch between multi-column grid and single-column list views with automatic preference persistence.
+  - **Pinned Notes Section**: Dedicated "📌 PINNED" header separating pinned priority notes from regular notes with 1-tap pin/unpin toggles.
+  - **Interactive Checklists**: Real checkboxes that toggle completion directly on cards and in the editor, with completion counter badges (e.g. "3 of 5 completed").
+  - **6-Color Note Theme Palette**: Charcoal, Ocean Slate, Forest Pine, Warm Bronze, Midnight Amethyst, and Velvet Wine accents.
+  - **Upgraded Note Editor (`NoteEditorDialog`)**: Fast mode switcher (Text vs Checklist), dynamic category chips, live word & item counters, and custom color strip.
+  - **Strict Stealth Disguise Preserved**: Preserved 100% of keyword search unlock (`"tyagi"`), duress panic wipe (`"panic"`, `"911"`, `"0000"`), and optional biometric access.
+  - **Google Play Protect Clean**: Completely free of restricted permissions (`SEND_SMS` removed).
+
+### `v1.9`
 - **Granular Account Controls & Profile Customization**:
   - In-place editing of Display Name, unique `@handle`, status Bio, and duotone avatar accent color via `EditProfileSheet`.
   - Secondary Email Linking with OTP verification via `LinkEmailSheet`.

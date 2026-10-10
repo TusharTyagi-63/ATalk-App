@@ -1,8 +1,8 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.7-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-2.16%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v1.8-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-2.23%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.7 (Latest)` | 2.16 MB | `64A309380F905266D5DFC9D01A1AE04C535B953DDA2EA192BFD94AB076B7F482` | Voice Pitch Modulator & Scrambler (Stitch), Duress Panic Wipe Trigger, Auto-Mirrored Icons |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.8 (Latest)` | 2.23 MB | `D1D91ED13624ED0BA133C2E0EC613D77B9B9D50C14593DC7CA0EE1C2C3C3136C` | Complete 16-Feature Suite: Zero Demo Bots (Pure Real User), Swipe-to-Reply, Anonymous Polls, Wallpaper Studio, RAM-Only Stickers/GIFs, Media Picker, Floating Audio Dock, QR Safety Fingerprint, OLED True-Black & 5 Cyber Accents, Bandwidth Throttle Simulator |
+| **[ATalk-v1.8.apk](ATalk-v1.8.apk)** | `v1.8` | 2.23 MB | `D1D91ED13624ED0BA133C2E0EC613D77B9B9D50C14593DC7CA0EE1C2C3C3136C` | All 16 Features + 6 UI Polish Disciplines, Pure Real Account Experience, 0 Bytes Flash Storage |
 | **[ATalk-v1.7.apk](ATalk-v1.7.apk)** | `v1.7` | 2.16 MB | `64A309380F905266D5DFC9D01A1AE04C535B953DDA2EA192BFD94AB076B7F482` | Real-time DSP Formant Masking, 5 Voice Presets (-12 to +12 st), Coercion Panic Purge |
 | **[ATalk-v1.6.apk](ATalk-v1.6.apk)** | `v1.6` | 2.13 MB | `B492F033171AEDD60F8EFE2DED6C70FAE941FCBD1D151EF3CB9B1D2E5D4FE1C3` | Disappearing Messages & Burner Mode, Strict Button-Triggered Vault Unlock, Volatile Auto-Destruct |
 | **[ATalk-v1.5.apk](ATalk-v1.5.apk)** | `v1.5` | 2.13 MB | `7378304F4966EF71AA943C56DA3A1280FC03736AC225075815626A879B99CD17` | Stitch Ephemeral Viewer, Micro-Payload Wire Framing, Telegram Search Filters |

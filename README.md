@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.1-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v1.2-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-2.10%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.1 (Latest)` | 2.10 MB | `4B19942CFC4186C8D0C6AAD74DE6A59D014B87209E6F323358DD7C43D6597240` | Interactive Stories, View-Once & Optimistic ACKs |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.2 (Latest)` | 2.10 MB | `5813F8002B342F720A6F2705816EAE2AAFE442F6DF0F0BDFDAA122A749B34244` | Live Audio Dock & Encrypted Call Link Share Modal |
+| **[ATalk-v1.2.apk](ATalk-v1.2.apk)** | `v1.2` | 2.10 MB | `5813F8002B342F720A6F2705816EAE2AAFE442F6DF0F0BDFDAA122A749B34244` | Live Decibel Waveform Dock & E2EE Call Link Modal |
 | **[ATalk-v1.1.apk](ATalk-v1.1.apk)** | `v1.1` | 2.10 MB | `4B19942CFC4186C8D0C6AAD74DE6A59D014B87209E6F323358DD7C43D6597240` | Status Story Viewer & View-Once Ephemeral Card |
 | **[ATalk-v1.0.apk](ATalk-v1.0.apk)** | `v1.0` | 2.08 MB | `984C50B9F2180ADC7142C5973A32C86A589E5647AC03DA22EF29C960B8F280D4` | Initial Stealth Notes Disguise & Master Key Derivation |
 
@@ -33,8 +34,8 @@
 - **Instant Memory Shredding**: When the device is locked or screen turned off, all active media buffers are immediately zeroized (`Arrays.fill(bytes, 0)`).
 
 ### 3. 💬 Telegram + WhatsApp Hybrid Experience
-- **Telegram Features**: Folder ribbons (`All`, `Unread`, `Personal`, `Work`), pinned "Saved Messages" cloud vault, supergroups, broadcast channels, dynamic voice waveform player with 2X speed toggle, and floating emoji reaction dock.
-- **WhatsApp Features**: 24-hour status stories carousel with segmented rings, interactive story viewer dialog with quick reactions, quoted swipe-reply bubble, View-Once `(1)` ephemeral media card with countdown timer, 6-icon attachment drawer, and shareable encrypted Call Links.
+- **Telegram Features**: Folder ribbons (`All`, `Unread`, `Personal`, `Work`), pinned "Saved Messages" cloud vault, supergroups, broadcast channels, dynamic voice waveform player with 2X speed toggle, live voice note recorder dock with frequency bars, and floating emoji reaction dock.
+- **WhatsApp Features**: 24-hour status stories carousel with segmented rings, interactive story viewer dialog with quick reactions, quoted swipe-reply bubble, View-Once `(1)` ephemeral media card with countdown timer, 6-icon attachment drawer, and shareable encrypted Call Links modal.
 
 ### 4. 🚀 Ultra-Fast Messaging & ACK State Machine
 - **Optimistic UI**: Messages render instantly with clock icon (`QUEUED` 🕒), transitioning to single checkmark (`SENT` ✓), double gray checkmarks (`DELIVERED` ✓✓), and double cyan checkmarks (`READ` ✓✓).
@@ -51,7 +52,13 @@ The complete Kotlin Jetpack Compose source code, architectural specifications, a
 
 ## 📜 Version History
 
-### `v1.1` (Latest)
+### `v1.2` (Latest)
+- **Live Audio Note Voice Recorder Dock**: Live decibel frequency bars, pulsating record dot, slide-to-cancel trash trigger, lock-to-record toggle, and RAM-only zero-storage badge (Stitch screen `d52c51625b5c47cb81aae32637981ad5`).
+- **Encrypted Call Link Share Modal**: Video/Voice call mode toggle, auto-generated unique secure link, 4-emoji safety verification key (`CryptoUtils.generateSafetyEmojiKey`), one-tap clipboard copy, and native Android `ACTION_SEND` sharing (Stitch screen `2fdf1949bfb947d3bc828332e8aec26a`).
+- **Playable Voice Note Pipeline**: Integrated dynamic waveform playback with 1X/2X speed multiplier directly into chat feed.
+- Stream-installed and verified directly on physical hardware (`R9ZX40E84PY`).
+
+### `v1.1`
 - **Interactive WhatsApp Status Story Viewer**: 4-segment animated progress bar, volatile RAM indicator, quick emoji reactions (🔥, ❤️, 💯, 👏, 😂), and encrypted reply field (designed in Stitch `9b49e554fe8a4dd3b90a32b74a3a489c`).
 - **Interactive View-Once Ephemeral Viewer**: 10-second countdown circular timer, RAM-only buffer badge ("0 bytes on disk"), explicit "Save to Gallery (SAF)" button, and instant "Shred Now" button.
 - **Optimistic Message ACK State Machine**: `QUEUED` 🕒 -> `SENT` ✓ -> `DELIVERED` ✓✓ -> `READ` ✓✓ cyan.

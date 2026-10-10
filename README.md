@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.5-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v1.6-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-2.13%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.5 (Latest)` | 2.13 MB | `7378304F4966EF71AA943C56DA3A1280FC03736AC225075815626A879B99CD17` | Full-Screen Ephemeral Media Viewer (Stitch), 2G Binary Wire Protocol, Global Search |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.6 (Latest)` | 2.13 MB | `B492F033171AEDD60F8EFE2DED6C70FAE941FCBD1D151EF3CB9B1D2E5D4FE1C3` | Explicit Search Button Unlock, Ephemeral Disappearing Messages Modal (Stitch), RAM Reapers |
+| **[ATalk-v1.6.apk](ATalk-v1.6.apk)** | `v1.6` | 2.13 MB | `B492F033171AEDD60F8EFE2DED6C70FAE941FCBD1D151EF3CB9B1D2E5D4FE1C3` | Disappearing Messages & Burner Mode, Strict Button-Triggered Vault Unlock, Volatile Auto-Destruct |
 | **[ATalk-v1.5.apk](ATalk-v1.5.apk)** | `v1.5` | 2.13 MB | `7378304F4966EF71AA943C56DA3A1280FC03736AC225075815626A879B99CD17` | Stitch Ephemeral Viewer, Micro-Payload Wire Framing, Telegram Search Filters |
 | **[ATalk-v1.4.apk](ATalk-v1.4.apk)** | `v1.4` | 2.11 MB | `6123756FB6F06AD08A2916D90C66A85F03D01CA538F8667C2C0C64F840683D94` | Real Account Setup, Full Settings Hub, Clean Bot Chat & Inset Stability |
 | **[ATalk-v1.3.apk](ATalk-v1.3.apk)** | `v1.3` | 2.11 MB | `0C85B64C4099F50C8DC8089DA11A3BE3E60C5A5D192D1BB4D072D5AD4E329938` | WebRTC Diagnostics HUD & Adaptive Opus 6-32 kbps |
@@ -26,25 +27,30 @@
 
 ### 1. 🥷 Stealth Notes Disguise & Biometric Access
 - **Authentic Cover App**: Launches as a clean, realistic Notes application with title `"Notes"`, functional categories, and realistic decoy notes.
-- **Secret Search Unlock**: Vault unlocks strictly when typing your customized secret keyword (default `"tyagi"`) in the search bar.
-- **Biometric Fast-Path**: Instant hardware fingerprint scan triggered automatically when the search bar is focused.
+- **Button-Triggered Search Unlock**: Vault unlocks strictly when typing your secret keyword (default `"tyagi"`) and deliberately tapping the search magnifying glass icon or pressing the keyboard's Search button. No auto-triggering on keypress for maximum plausible deniability.
+- **Biometric Security**: Hardware biometric fingerprint scan backing secure identity confirmation.
 - **Screen-Off Auto-Lock**: Screen-off (`ACTION_SCREEN_OFF`) immediately clears the backstack and zeroes cryptographic keys in RAM.
 
-### 2. ⚡ Strict Zero-Storage Media Policy (Zero Flash Traces)
+### 2. 🔥 Ephemeral Disappearing Messages & Burner Mode (Stitch UI)
+- **Granular Self-Destruct Timers**: Selectable auto-purge timers (`Off`, `10 Seconds (Burner)`, `1 Minute`, `24 Hours`, `7 Days`, `30 Days`) designed in Stitch Nocturne Kinetic UI.
+- **Zero-Disk Footprint**: Guaranteed RAM-only volatile storage with instant coroutine reaper thread auto-destruction.
+- **Visual Flame Badges**: Live flame indicators on ephemeral message bubbles and interactive active timer banner in chat.
+
+### 3. ⚡ Strict Zero-Storage Media Policy (Zero Flash Traces)
 - **Zero Auto-Save**: Absolutely NO photos, videos, voice notes, stickers, or documents are ever saved or cached to persistent device storage (`/sdcard/`, `DCIM/`, `Pictures/`, `Download/`, or internal cache).
 - **RAM-Only Volatile Caching**: All media is decoded on the fly into volatile memory (`ByteArray`, `Bitmap`) with disk caches completely disabled (`diskCachePolicy(CachePolicy.DISABLED)`).
 - **Interactive User Export Only**: Media persistance to device storage occurs ONLY when the user explicitly taps "Save to Gallery", triggering Android's Storage Access Framework (SAF).
 - **Instant Memory Shredding**: When the device is locked or screen turned off, all active media buffers are immediately zeroized (`Arrays.fill(bytes, 0)`).
 
-### 3. 💬 Telegram + WhatsApp Hybrid Experience
+### 4. 💬 Telegram + WhatsApp Hybrid Experience
 - **Telegram Features**: Folder ribbons (`All`, `Unread`, `Personal`, `Work`), pinned "Saved Messages" cloud vault, supergroups, broadcast channels, dynamic voice waveform player with 2X speed toggle, live voice note recorder dock with frequency bars, and floating emoji reaction dock.
 - **WhatsApp Features**: 24-hour status stories carousel with segmented rings, interactive story viewer dialog with quick reactions, quoted swipe-reply bubble, View-Once `(1)` ephemeral media card with countdown timer, 6-icon attachment drawer, and shareable encrypted Call Links modal.
 
-### 4. 🚀 Ultra-Fast Messaging & ACK State Machine
+### 5. 🚀 Ultra-Fast Messaging & ACK State Machine
 - **Optimistic UI**: Messages render instantly with clock icon (`QUEUED` 🕒), transitioning to single checkmark (`SENT` ✓), double gray checkmarks (`DELIVERED` ✓✓), and double cyan checkmarks (`READ` ✓✓).
 - Low-bandwidth micro-payload binary wire formatting.
 
-### 5. 📞 WebRTC Low-Bandwidth HD Calling & 2G Resilience
+### 6. 📞 WebRTC Low-Bandwidth HD Calling & 2G Resilience
 - **Real-Time Quality HUD**: Floating telemetry card monitoring Latency/RTT (ms), Packet Loss percentage, and Audio Codec bitrate in real time.
 - **Adaptive Opus Engine**: Spans 6 kbps (ultra-low 2G/EDGE) to 32 kbps (HD voice) with In-Band Forward Error Correction (FEC) and Packet Loss Concealment (PLC).
 - **2G Low Bandwidth Resilience Mode**: Instantly drops bitrate to 6 kbps with 30% FEC redundancy and audio-priority gating, guaranteeing zero audio dropouts even on flaky cellular signals.

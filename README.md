@@ -1,8 +1,8 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.2-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-2.10%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v1.3-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-2.11%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.2 (Latest)` | 2.10 MB | `5813F8002B342F720A6F2705816EAE2AAFE442F6DF0F0BDFDAA122A749B34244` | Live Audio Dock & Encrypted Call Link Share Modal |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.3 (Latest)` | 2.11 MB | `0C85B64C4099F50C8DC8089DA11A3BE3E60C5A5D192D1BB4D072D5AD4E329938` | Real-Time Call Telemetry HUD & 2G Low Bandwidth Resilience |
+| **[ATalk-v1.3.apk](ATalk-v1.3.apk)** | `v1.3` | 2.11 MB | `0C85B64C4099F50C8DC8089DA11A3BE3E60C5A5D192D1BB4D072D5AD4E329938` | WebRTC Diagnostics HUD & Adaptive Opus 6-32 kbps |
 | **[ATalk-v1.2.apk](ATalk-v1.2.apk)** | `v1.2` | 2.10 MB | `5813F8002B342F720A6F2705816EAE2AAFE442F6DF0F0BDFDAA122A749B34244` | Live Decibel Waveform Dock & E2EE Call Link Modal |
 | **[ATalk-v1.1.apk](ATalk-v1.1.apk)** | `v1.1` | 2.10 MB | `4B19942CFC4186C8D0C6AAD74DE6A59D014B87209E6F323358DD7C43D6597240` | Status Story Viewer & View-Once Ephemeral Card |
 | **[ATalk-v1.0.apk](ATalk-v1.0.apk)** | `v1.0` | 2.08 MB | `984C50B9F2180ADC7142C5973A32C86A589E5647AC03DA22EF29C960B8F280D4` | Initial Stealth Notes Disguise & Master Key Derivation |
@@ -41,6 +42,11 @@
 - **Optimistic UI**: Messages render instantly with clock icon (`QUEUED` 🕒), transitioning to single checkmark (`SENT` ✓), double gray checkmarks (`DELIVERED` ✓✓), and double cyan checkmarks (`READ` ✓✓).
 - Low-bandwidth micro-payload binary wire formatting.
 
+### 5. 📞 WebRTC Low-Bandwidth HD Calling & 2G Resilience
+- **Real-Time Quality HUD**: Floating telemetry card monitoring Latency/RTT (ms), Packet Loss percentage, and Audio Codec bitrate in real time.
+- **Adaptive Opus Engine**: Spans 6 kbps (ultra-low 2G/EDGE) to 32 kbps (HD voice) with In-Band Forward Error Correction (FEC) and Packet Loss Concealment (PLC).
+- **2G Low Bandwidth Resilience Mode**: Instantly drops bitrate to 6 kbps with 30% FEC redundancy and audio-priority gating, guaranteeing zero audio dropouts even on flaky cellular signals.
+
 ---
 
 ## 🔒 Source Code Repository
@@ -52,7 +58,13 @@ The complete Kotlin Jetpack Compose source code, architectural specifications, a
 
 ## 📜 Version History
 
-### `v1.2` (Latest)
+### `v1.3` (Latest)
+- **Real-Time WebRTC Call Telemetry HUD**: Live floating diagnostics card displaying RTT (latency in ms), packet loss with In-Band FEC status, audio codec bitrate, and network quality tier (designed in Stitch `725f949da75449b59544fbb36c22e056`).
+- **2G Low Bandwidth Resilience Mode**: Interactive toggleable switch that locks Opus codec to 6 kbps with aggressive 30% FEC redundancy to prevent audio dropouts under severe packet loss.
+- **Call Control Ergonomics**: Updated with Mute, Video camera toggle, Speaker, Camera flip, and Red End Call FAB.
+- Stream-installed and verified on physical hardware (`R9ZX40E84PY`).
+
+### `v1.2`
 - **Live Audio Note Voice Recorder Dock**: Live decibel frequency bars, pulsating record dot, slide-to-cancel trash trigger, lock-to-record toggle, and RAM-only zero-storage badge (Stitch screen `d52c51625b5c47cb81aae32637981ad5`).
 - **Encrypted Call Link Share Modal**: Video/Voice call mode toggle, auto-generated unique secure link, 4-emoji safety verification key (`CryptoUtils.generateSafetyEmojiKey`), one-tap clipboard copy, and native Android `ACTION_SEND` sharing (Stitch screen `2fdf1949bfb947d3bc828332e8aec26a`).
 - **Playable Voice Note Pipeline**: Integrated dynamic waveform playback with 1X/2X speed multiplier directly into chat feed.

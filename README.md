@@ -1,19 +1,20 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.0-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-2.08%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v1.1-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-2.10%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
 ---
 
-## 📥 Direct APK Download
+## 📥 Direct APK Downloads
 
-| File | Version | Size | Checksum (SHA-256) |
-|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.0 (Latest)` | 2.08 MB | `984C50B9F2180ADC7142C5973A32C86A589E5647AC03DA22EF29C960B8F280D4` |
-| **[ATalk-v1.0.apk](ATalk-v1.0.apk)** | `v1.0` | 2.08 MB | `984C50B9F2180ADC7142C5973A32C86A589E5647AC03DA22EF29C960B8F280D4` |
+| File | Version | Size | Checksum (SHA-256) | Notes |
+|---|---|---|---|---|
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.1 (Latest)` | 2.10 MB | `4B19942CFC4186C8D0C6AAD74DE6A59D014B87209E6F323358DD7C43D6597240` | Interactive Stories, View-Once & Optimistic ACKs |
+| **[ATalk-v1.1.apk](ATalk-v1.1.apk)** | `v1.1` | 2.10 MB | `4B19942CFC4186C8D0C6AAD74DE6A59D014B87209E6F323358DD7C43D6597240` | Status Story Viewer & View-Once Ephemeral Card |
+| **[ATalk-v1.0.apk](ATalk-v1.0.apk)** | `v1.0` | 2.08 MB | `984C50B9F2180ADC7142C5973A32C86A589E5647AC03DA22EF29C960B8F280D4` | Initial Stealth Notes Disguise & Master Key Derivation |
 
 ---
 
@@ -33,12 +34,11 @@
 
 ### 3. 💬 Telegram + WhatsApp Hybrid Experience
 - **Telegram Features**: Folder ribbons (`All`, `Unread`, `Personal`, `Work`), pinned "Saved Messages" cloud vault, supergroups, broadcast channels, dynamic voice waveform player with 2X speed toggle, and floating emoji reaction dock.
-- **WhatsApp Features**: 24-hour status stories carousel with segmented rings, quoted swipe-reply bubble, View-Once `(1)` ephemeral media card, 6-icon attachment drawer, and shareable encrypted Call Links.
+- **WhatsApp Features**: 24-hour status stories carousel with segmented rings, interactive story viewer dialog with quick reactions, quoted swipe-reply bubble, View-Once `(1)` ephemeral media card with countdown timer, 6-icon attachment drawer, and shareable encrypted Call Links.
 
-### 4. 📞 Low-Network HD Calling & Messaging
-- Tuned for low-bandwidth 2G/3G networks, surviving up to 30% packet loss with adaptive Opus audio (6–32 kbps) with In-Band FEC and PLC.
-- Hardware acoustic echo cancellation (AEC) and noise suppression (NS).
-- Ultra-compact binary wire payloads minimizing cellular byte consumption.
+### 4. 🚀 Ultra-Fast Messaging & ACK State Machine
+- **Optimistic UI**: Messages render instantly with clock icon (`QUEUED` 🕒), transitioning to single checkmark (`SENT` ✓), double gray checkmarks (`DELIVERED` ✓✓), and double cyan checkmarks (`READ` ✓✓).
+- Low-bandwidth micro-payload binary wire formatting.
 
 ---
 
@@ -51,7 +51,13 @@ The complete Kotlin Jetpack Compose source code, architectural specifications, a
 
 ## 📜 Version History
 
-### `v1.0` (Latest)
+### `v1.1` (Latest)
+- **Interactive WhatsApp Status Story Viewer**: 4-segment animated progress bar, volatile RAM indicator, quick emoji reactions (🔥, ❤️, 💯, 👏, 😂), and encrypted reply field (designed in Stitch `9b49e554fe8a4dd3b90a32b74a3a489c`).
+- **Interactive View-Once Ephemeral Viewer**: 10-second countdown circular timer, RAM-only buffer badge ("0 bytes on disk"), explicit "Save to Gallery (SAF)" button, and instant "Shred Now" button.
+- **Optimistic Message ACK State Machine**: `QUEUED` 🕒 -> `SENT` ✓ -> `DELIVERED` ✓✓ -> `READ` ✓✓ cyan.
+- Verified and stream-installed directly to Samsung device (`R9ZX40E84PY`).
+
+### `v1.0`
 - Initial verified release with R8 dead-code stripping (<2.1 MB).
 - Complete Notes disguise screen with search keyword unlock (`"tyagi"`) & biometric integration.
 - Hardware Keystore AES-256-GCM master key derivation (`MasterKeyManager`).

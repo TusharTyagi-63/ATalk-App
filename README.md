@@ -1,8 +1,8 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.8-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-2.23%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v1.9-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-2.33%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
@@ -12,8 +12,9 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.8 (Latest)` | 2.23 MB | `D1D91ED13624ED0BA133C2E0EC613D77B9B9D50C14593DC7CA0EE1C2C3C3136C` | Complete 16-Feature Suite: Zero Demo Bots (Pure Real User), Swipe-to-Reply, Anonymous Polls, Wallpaper Studio, RAM-Only Stickers/GIFs, Media Picker, Floating Audio Dock, QR Safety Fingerprint, OLED True-Black & 5 Cyber Accents, Bandwidth Throttle Simulator |
-| **[ATalk-v1.8.apk](ATalk-v1.8.apk)** | `v1.8` | 2.23 MB | `D1D91ED13624ED0BA133C2E0EC613D77B9B9D50C14593DC7CA0EE1C2C3C3136C` | All 16 Features + 6 UI Polish Disciplines, Pure Real Account Experience, 0 Bytes Flash Storage |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9 (Latest)` | 2.33 MB | `930E44C85C9DB7F124984CBB9940CD7E5F0E7C4E7BF318F585686CD2B0F6881D` | Complete Account Controls & Storage Suite: In-App Profile Edit (@handle/bio/avatar), Telegram-Style Storage & RAM Cache Manager with Selective Purge, Cryptographic Account Deletion Danger Zone, Secondary Email Linking, Dual-Channel Login (Phone / Email), Pure Kotlin 3-Way Unified OTP (Mesh + Native SMS + Email with identical code), Optional Biometrics |
+| **[ATalk-v1.9.apk](ATalk-v1.9.apk)** | `v1.9` | 2.33 MB | `930E44C85C9DB7F124984CBB9940CD7E5F0E7C4E7BF318F585686CD2B0F6881D` | All Account Controls, Storage Management, Email Link, Dual-Channel Auth, Multi-Channel OTP Relay, Zero Flash Footprint |
+| **[ATalk-v1.8.apk](ATalk-v1.8.apk)** | `v1.8` | 2.23 MB | `D1D91ED13624ED0BA133C2E0EC613D77B9B9D50C14593DC7CA0EE1C2C3C3136C` | 16 Core Features + 6 UI Polish Disciplines, Pure Real Account Experience, 0 Bytes Flash Storage |
 | **[ATalk-v1.7.apk](ATalk-v1.7.apk)** | `v1.7` | 2.16 MB | `64A309380F905266D5DFC9D01A1AE04C535B953DDA2EA192BFD94AB076B7F482` | Real-time DSP Formant Masking, 5 Voice Presets (-12 to +12 st), Coercion Panic Purge |
 | **[ATalk-v1.6.apk](ATalk-v1.6.apk)** | `v1.6` | 2.13 MB | `B492F033171AEDD60F8EFE2DED6C70FAE941FCBD1D151EF3CB9B1D2E5D4FE1C3` | Disappearing Messages & Burner Mode, Strict Button-Triggered Vault Unlock, Volatile Auto-Destruct |
 | **[ATalk-v1.5.apk](ATalk-v1.5.apk)** | `v1.5` | 2.13 MB | `7378304F4966EF71AA943C56DA3A1280FC03736AC225075815626A879B99CD17` | Stitch Ephemeral Viewer, Micro-Payload Wire Framing, Telegram Search Filters |
@@ -75,7 +76,39 @@ The complete Kotlin Jetpack Compose source code, architectural specifications, a
 
 ## 📜 Version History
 
-### `v1.5` (Latest)
+### `v1.9` (Latest)
+- **Granular Account Controls & Profile Customization**:
+  - In-place editing of Display Name, unique `@handle`, status Bio, and duotone avatar accent color via `EditProfileSheet`.
+  - Secondary Email Linking with OTP verification via `LinkEmailSheet`.
+  - Permanent Cryptographic Account Deletion: Red-themed double-confirmation dialog requiring explicit `DELETE` confirmation to shred hardware Keystore keys, wipe volatile media caches, destroy session tokens, and reset identity.
+  - Active Sessions Management (`LinkedSessionsScreen`) with QR device pairing and one-tap termination of other sessions.
+- **Telegram-Style Granular Storage & RAM Cache Manager (`StorageUsageScreen`)**:
+  - Real-time categorized volatile RAM breakdown: Voice Notes, Decoded Media / Photos, and Ephemeral Network Buffers.
+  - Color-coded multi-segment storage bar with 1-tap selective purge controls (`Clear Voice Cache`, `Clear Media Cache`, `Clear Ephemeral Buffers`).
+  - Strict 0B on Flash Storage persistent audit badge.
+  - Auto-purge media retention scheduler (Keep 3 Days, 1 Week, 1 Month, Forever in RAM) and cellular vs Wi-Fi network telemetry counters.
+- **Pure Kotlin Multi-Channel Unified OTP Engine (`UnifiedOtpManager`)**:
+  - Zero third-party paid SMS APIs (No Twilio, No Firebase Auth).
+  - 3-Way Concurrent Dispatch: (1) Telegram-style In-App Encrypted Mesh Relay to active sessions, (2) Android Native Cellular SMS via `android.telephony.SmsManager`, and (3) Direct Email dispatch.
+  - **Identical 6-Digit Code Invariant**: Exactly the same cryptographically generated 6-digit OTP code is emitted simultaneously across all 3 channels.
+- **Dual-Channel Authentication & Profile Recovery (`PhoneAuthScreen`)**:
+  - Tabbed login selector: `[ 📱 Phone Number ]` vs `[ ✉️ Email Address ]`.
+  - Seamless returning user profile restoration upon OTP verification.
+- **Optional Biometric Access Control**:
+  - Vault biometric unlock (`VaultManager.isBiometricVaultUnlockEnabled()`) is made entirely optional and user-configurable in Settings.
+  - Optional biometric unlock prompt on the disguise Notes screen.
+- Stream-installed and verified on Samsung Galaxy Tab A9 (`R9ZX40E84PY`).
+
+### `v1.8`
+- Complete 16-feature suite with pure real-user experience: Zero demo bots, swipe-to-reply, anonymous polls, wallpaper studio, RAM-only stickers/GIFs, media picker, floating audio dock, QR safety fingerprint, OLED true-black theme & 5 cyber accents, bandwidth throttle simulator.
+
+### `v1.7`
+- Real-time DSP formant masking, 5 vocal presets (-12 to +12 semitones), and duress panic wipe.
+
+### `v1.6`
+- Disappearing messages, burner mode, strict button-triggered vault unlock, and volatile auto-destruct.
+
+### `v1.5`
 - **Full-Screen Zero-Storage Ephemeral Media Viewer (Stitch Design `f5c49d33a2fb493682a0f2671757dc36`)**: Immersive dark tactical UI, prominent 10-second circular fuse countdown timer with dynamic arc progress, strict volatile RAM indicator ("0 Bytes on Disk • RAM-Only Buffer"), caption drawer, interactive Storage Access Framework export ("Save via SAF"), and instant memory shredding ("Instant Shred" with `VolatileMediaVault.shredSingleMedia`).
 - **Ephemeral Binary Wire Micro-Payload Protocol (`MicroWireProtocol.kt`)**: Ultra-compact 28-byte framing replacing heavy JSON payloads; shrinks network packets down to <64 bytes with hardware CRC32 frame checksum for zero head-of-line blocking on lossy 2G/EDGE cellular connections.
 - **Telegram & WhatsApp Global Search Bar**: Real-time expandable search bar in `ChatListScreen` with category filter chips (`All`, `Bot`, `Messages`, `Vault`), instant query matching across chats, usernames, and message content, with empty-state search cards.

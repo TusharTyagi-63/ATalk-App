@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.3-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v1.4-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-2.11%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.3 (Latest)` | 2.11 MB | `0C85B64C4099F50C8DC8089DA11A3BE3E60C5A5D192D1BB4D072D5AD4E329938` | Real-Time Call Telemetry HUD & 2G Low Bandwidth Resilience |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.4 (Latest)` | 2.11 MB | `6123756FB6F06AD08A2916D90C66A85F03D01CA538F8667C2C0C64F840683D94` | Real Account Setup, Full Settings Hub, Clean Bot Chat & Inset Stability |
+| **[ATalk-v1.4.apk](ATalk-v1.4.apk)** | `v1.4` | 2.11 MB | `6123756FB6F06AD08A2916D90C66A85F03D01CA538F8667C2C0C64F840683D94` | Real Account Setup, Telegram & WhatsApp Settings, Keyword Unlock |
 | **[ATalk-v1.3.apk](ATalk-v1.3.apk)** | `v1.3` | 2.11 MB | `0C85B64C4099F50C8DC8089DA11A3BE3E60C5A5D192D1BB4D072D5AD4E329938` | WebRTC Diagnostics HUD & Adaptive Opus 6-32 kbps |
 | **[ATalk-v1.2.apk](ATalk-v1.2.apk)** | `v1.2` | 2.10 MB | `5813F8002B342F720A6F2705816EAE2AAFE442F6DF0F0BDFDAA122A749B34244` | Live Decibel Waveform Dock & E2EE Call Link Modal |
 | **[ATalk-v1.1.apk](ATalk-v1.1.apk)** | `v1.1` | 2.10 MB | `4B19942CFC4186C8D0C6AAD74DE6A59D014B87209E6F323358DD7C43D6597240` | Status Story Viewer & View-Once Ephemeral Card |
@@ -58,7 +59,15 @@ The complete Kotlin Jetpack Compose source code, architectural specifications, a
 
 ## 📜 Version History
 
-### `v1.3` (Latest)
+### `v1.4` (Latest)
+- **Real User Account Setup Flow**: Complete 3-step onboarding (`PhoneAuthScreen`) with international phone input, SMS OTP auto-fill testing helper, display name, `@username` handle availability check, status bio, and Curve25519 Keystore pair generation.
+- **Strict Keyword-Only Stealth Disguise**: Removed all fingerprint biometric shortcuts from Notes search bar — unlocking is strictly gated by typing the secret keyword (`"tyagi"` or user-configured secret word).
+- **Full Telegram & WhatsApp Settings Architecture**: Profile badge & edit flow, Vault Search Keyword customization, Master PIN, Duress Panic Wipe PIN (instant key zeroing), Screen-Off Auto-Lock & RAM Purge, Default Disappearing Messages timer, Two-Step Verification, P2P Call Relay, Wallpaper Themes, Chat Font Size, Volatile RAM Monitor with instant purge button, and "0 Bytes on Flash Storage" Audit Badge.
+- **UI Viewport Inset & Height Stability**: Replaced hardcoded heights with dynamic insets (`contentWindowInsets = WindowInsets.statusBars`, `.imePadding().navigationBarsPadding()`) eliminating screen jumping when opening/closing the keyboard.
+- **Clean Single-Bot Interaction**: Removed demo contacts, mock calls, and stories, preserving a pristine interactive `ATalk Bot` (`@atalk_bot` 🤖) capable of interactive message replies and bot commands (`/help`, `/status`, `/keys`, `/wipe`, `/ping`).
+- Stream-installed and verified on physical hardware (`R9ZX40E84PY`).
+
+### `v1.3`
 - **Real-Time WebRTC Call Telemetry HUD**: Live floating diagnostics card displaying RTT (latency in ms), packet loss with In-Band FEC status, audio codec bitrate, and network quality tier (designed in Stitch `725f949da75449b59544fbb36c22e056`).
 - **2G Low Bandwidth Resilience Mode**: Interactive toggleable switch that locks Opus codec to 6 kbps with aggressive 30% FEC redundancy to prevent audio dropouts under severe packet loss.
 - **Call Control Ergonomics**: Updated with Mute, Video camera toggle, Speaker, Camera flip, and Red End Call FAB.

@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v2.1.0-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v2.1.1-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-2.54%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v2.1.0 (Latest)` | 2.54 MB | `E8B5C97F06CA8B7FBF90D2CFC3FD16D07CF974ACD4B80C34F1071778DEFA6B66` | Release 2.1.0: Phone Responsiveness Overhaul, Log In / Register Mode Switch, Profile Auto-Restore, Session Logout, Supabase Live Messaging & Group Creation, Audio/Video Call Signaling |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v2.1.1 (Latest)` | 2.54 MB | `88A3594992AC78A3C63784785FAB288BEF0062A164C7CEBD46F1494A51E44317` | Release 2.1.1: Complete Chatting & History Engine Overhaul, Real Delivery States (🕒 QUEUED -> ✓ SENT -> ✓✓ DELIVERED -> ✓✓ READ), Self-Healing User Auth & Auto Token Refresh, Zero Duplication Reconciler, Dynamic E2EE Direct Message Resolution |
+| **[ATalk-v2.1.1.apk](ATalk-v2.1.1.apk)** | `v2.1.1` | 2.54 MB | `88A3594992AC78A3C63784785FAB288BEF0062A164C7CEBD46F1494A51E44317` | Version 2.1.1: Live Cross-Device Sync, Watermark Read Receipts, In-Place Optimistic Reconciliation, Real Time Formatted Timestamps, Registered Peer Discovery |
 | **[ATalk-v2.1.0.apk](ATalk-v2.1.0.apk)** | `v2.1.0` | 2.54 MB | `E8B5C97F06CA8B7FBF90D2CFC3FD16D07CF974ACD4B80C34F1071778DEFA6B66` | Version 2.1.0: Compact Mobile-First Viewports, Supabase Live Chat & Polling, Multi-Peer Groups, Call Signaling MESH |
 | **[ATalk-v2.0.apk](ATalk-v2.0.apk)** | `v2.0` | 2.52 MB | `E4A654F7CF1F4E154AD1FD3CF1E9609DB0B6D8616108E467C6BFCDB84AFBA8FE` | Milestone 2.0: Direct Email OTP Code Delivery, Complete Removal & Purge of Legacy Website/Worker, Zero Magic Link Forwarding, Hardened Native E2EE Messaging |
 | **[ATalk-v1.9.4.apk](ATalk-v1.9.4.apk)** | `v1.9.4` | 2.52 MB | `7645737AC219465CD175DDC805689DF3176238C32A0ACC54BB6DF74715B96355` | Exact Character & Space Keyword Matching, Unrestricted Keyword Configuration, Pure Email OTP Verification |

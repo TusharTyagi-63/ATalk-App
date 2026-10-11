@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.9.2-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v1.9.3-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-2.52%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9.2 (Latest)` | 2.52 MB | `C8DE487118885731A633EF0F289D623DD1636CC59383B953C8A80763C787C39E` | Hierarchical Settings Hub (Stitch Approved), Real Supabase Email OTP Delivery, Google SMS User Consent API (`play-services-auth-api-phone`) Zero Permissions Auto-Fill, Dynamic Device Session Hardware Inspection, Zero Test/Bot DB Wipe |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9.3 (Latest)` | 2.52 MB | `722840F7310166F9A14D870CFC6E72BE1A4178591CC8ADA861E65410A1273244` | Direct Email Deep-Linking (`atalk://auth/confirm` & Worker redirect), Zero "tyagi" Backdoor Lockout, Clean Mobile Input UI, Dedicated In-Settings Phone & Email Profile Updating |
+| **[ATalk-v1.9.3.apk](ATalk-v1.9.3.apk)** | `v1.9.3` | 2.52 MB | `722840F7310166F9A14D870CFC6E72BE1A4178591CC8ADA861E65410A1273244` | Direct Email Deep Linking, Strict Zero Keyword Bypass, Clean Phone Form, Phone & Email Update Sheets |
 | **[ATalk-v1.9.2.apk](ATalk-v1.9.2.apk)** | `v1.9.2` | 2.52 MB | `C8DE487118885731A633EF0F289D623DD1636CC59383B953C8A80763C787C39E` | Hierarchical Settings Hub, Real Email OTP, Google SMS User Consent API, Clean DB |
 | **[ATalk-v1.9.1.apk](ATalk-v1.9.1.apk)** | `v1.9.1` | 2.34 MB | `7A7DCE4476F9D168AC319E34ACFC47AF0A41D95F4C9856EF5290F1578DD0C441` | Upgraded Notes Screen, Zero Mock Data, Persistent Local Notes, Account Controls, Play Protect Certified |
 | **[ATalk-v1.9.apk](ATalk-v1.9.apk)** | `v1.9` | 2.33 MB | `7A57B7EBF877FB371663822041D5CFBBA81278E9CEF5584762BE1048ECCF866F` | Account Controls & Storage Suite, Dual-Channel Login, Play Protect Fix |
@@ -32,7 +33,7 @@
 
 ### 1. 🥷 Stealth Notes Disguise, Button Unlock & Duress Panic Mode
 - **Authentic Cover App**: Launches as a clean, realistic Notes application with title `"Notes"`, functional categories, and realistic decoy notes.
-- **Button-Triggered Search Unlock**: Vault unlocks strictly when typing your secret keyword (default `"tyagi"`) and deliberately tapping the search magnifying glass icon or pressing the keyboard's Search button. No auto-triggering on keypress for maximum plausible deniability.
+- **Button-Triggered Search Unlock**: Vault unlocks strictly when typing your user-configured secret keyword and deliberately tapping the search magnifying glass icon or pressing the keyboard's Search button. No auto-triggering on keypress, and legacy hardcoded keywords are strictly blocked for maximum plausible deniability.
 - **Duress Panic Wipe Trigger**: Typing `"panic"`, `"911"`, or `"0000"` into the Notes search bar and pressing search instantly wipes all volatile cryptographic keys (`VaultManager.lockVault()`), resets backstacks, and returns a benign "No matching notes found." toast to defeat coerced unlocks.
 - **Biometric Security**: Hardware biometric fingerprint scan backing secure identity confirmation.
 - **Screen-Off Auto-Lock**: Screen-off (`ACTION_SCREEN_OFF`) immediately clears the backstack and zeroes cryptographic keys in RAM.

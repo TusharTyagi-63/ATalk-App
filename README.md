@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v1.9.3-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v1.9.4-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-2.52%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9.3 (Latest)` | 2.52 MB | `722840F7310166F9A14D870CFC6E72BE1A4178591CC8ADA861E65410A1273244` | Direct Email Deep-Linking (`atalk://auth/confirm` & Worker redirect), Zero "tyagi" Backdoor Lockout, Clean Mobile Input UI, Dedicated In-Settings Phone & Email Profile Updating |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v1.9.4 (Latest)` | 2.52 MB | `7645737AC219465CD175DDC805689DF3176238C32A0ACC54BB6DF74715B96355` | Exact Character & Literal Space Keyword Matching (spaces counted as characters), Strict Equality Check, Direct "tyagi" Keyword Support, Streamlined Email OTP Sign-In Flow |
+| **[ATalk-v1.9.4.apk](ATalk-v1.9.4.apk)** | `v1.9.4` | 2.52 MB | `7645737AC219465CD175DDC805689DF3176238C32A0ACC54BB6DF74715B96355` | Exact Character & Space Keyword Matching, Unrestricted Keyword Configuration, Pure Email OTP Verification |
 | **[ATalk-v1.9.3.apk](ATalk-v1.9.3.apk)** | `v1.9.3` | 2.52 MB | `722840F7310166F9A14D870CFC6E72BE1A4178591CC8ADA861E65410A1273244` | Direct Email Deep Linking, Strict Zero Keyword Bypass, Clean Phone Form, Phone & Email Update Sheets |
 | **[ATalk-v1.9.2.apk](ATalk-v1.9.2.apk)** | `v1.9.2` | 2.52 MB | `C8DE487118885731A633EF0F289D623DD1636CC59383B953C8A80763C787C39E` | Hierarchical Settings Hub, Real Email OTP, Google SMS User Consent API, Clean DB |
 | **[ATalk-v1.9.1.apk](ATalk-v1.9.1.apk)** | `v1.9.1` | 2.34 MB | `7A7DCE4476F9D168AC319E34ACFC47AF0A41D95F4C9856EF5290F1578DD0C441` | Upgraded Notes Screen, Zero Mock Data, Persistent Local Notes, Account Controls, Play Protect Certified |

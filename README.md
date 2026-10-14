@@ -1,8 +1,8 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v2.1.3-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-2.55%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v2.8-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-2.94%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v2.1.3 (Latest)` | 2.55 MB | `C5C34D70A63E24E6379C9E6EE15E9D08ED655C2C7AC686524FFEF5C2598C115F` | Release 2.1.3: Message Actions (Edit, Delete, React, Pin) wired to Supabase RPCs, Ephemeral Media Bucket Delivery, Dynamic Disguised Call Engine & Call Records, Epoch Timestamp Read Status, Fix "null" DM Preview |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v2.8 (Latest)` | 2.94 MB | `68CE36740155066DBC9022CD640163537A3D85DDAC29529CDF063C06D5ECDE79` | Release 2.8: Speaker Echo & Noise DSP Cancellation, Shared Audio Record/Track Session, Software NLMS Adaptive Filter, ATalk Independent PIN Lock, Full Emojis/GIFs Suite |
+| **[ATalk-v2.8.apk](ATalk-v2.8.apk)** | `v2.8` | 2.94 MB | `68CE36740155066DBC9022CD640163537A3D85DDAC29529CDF063C06D5ECDE79` | Version 2.8: P2P Audio Engine Overhaul, Hardware AEC Binding, OS-Independent App PIN Lock, Status Media Caption Binding, Clean UI |
 | **[ATalk-v2.1.3.apk](ATalk-v2.1.3.apk)** | `v2.1.3` | 2.55 MB | `C5C34D70A63E24E6379C9E6EE15E9D08ED655C2C7AC686524FFEF5C2598C115F` | Version 2.1.3: Full Audit Remediation, Live Supabase Storage Bucket, Dynamic Caller Handshake, Safe URL Encoded Navigation |
 | **[ATalk-v2.1.2.apk](ATalk-v2.1.2.apk)** | `v2.1.2` | 2.54 MB | `984C50B9F2180ADC7142C5973A32C86A589E5647AC03DA22EF29C960B8F280D4` | Version 2.1.2: Chat Messaging & Delivery Tracking Fix, Self-Healing Profile Resolver, General Channel Fallback |
 | **[ATalk-v2.1.1.apk](ATalk-v2.1.1.apk)** | `v2.1.1` | 2.54 MB | `88A3594992AC78A3C63784785FAB288BEF0062A164C7CEBD46F1494A51E44317` | Version 2.1.1: Live Cross-Device Sync, Watermark Read Receipts, In-Place Optimistic Reconciliation |

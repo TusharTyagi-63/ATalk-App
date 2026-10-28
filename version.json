@@ -1,12 +1,12 @@
 {
-  "versionCode": 45,
-  "versionName": "3.4.3",
-  "tagName": "v3.4.3",
-  "releaseTitle": "ATalk v3.4.3 — Message Reactions Sync, 'Notify Once' Policy, Discrete Calls, and Contact Profile Hub",
-  "releaseNotes": "• Message Reactions Sync: Real-time synchronization of heart emoji (❤️) and emoji reactions across sender and receiver devices via Phoenix WebSockets, PostgreSQL JSONB storage, and local disk cache persistence.\n• 'Notify Once Until Read' Notification Policy: Strictly alerts on the first incoming message. Subsequent messages sent while unread remain completely silent without repeated notification disturbance until the chat is opened.\n• Discrete Call Notifications ('Don't Ring the Bell'): Replaced continuous telephone ringtone bell with a gentle notification chime and vibration (identical to message alerts) on a dedicated channel.\n• WhatsApp/Telegram-style Contact Profile: Tapping avatar or contact header opens a full Contact Details sheet with quick actions (Audio/Video Call, Mute, Search in Chat, Disappearing Timer, Clear Chat, Block Contact).\n• Shared Media, Links & Documents Hub: Tabbed browser inside the Contact Details sheet to inspect all shared photos/videos in a thumbnail grid, shared documents/files, and web links extracted from the conversation.",
+  "versionCode": 46,
+  "versionName": "3.4.4",
+  "tagName": "v3.4.4",
+  "releaseTitle": "ATalk v3.4.4 — Shared Media Selective Delete, 'Go to in Chat', and Message Jump Glow",
+  "releaseNotes": "• Selective Delete for Shared Media, Docs & Links: Introduced multi-selection toolbar with 'Select All', badge counter, and batch deletion confirmation dialog inside the Contact Details shared hub.\n• 'Go to in Chat' (Jump to Message): Tap 'Show in Chat' on any photo, video, document, or web link to immediately scroll to its location in the chat room with a glowing highlight pulse.\n• Quick Actions for Media & Documents: Direct options to View Fullscreen, Open Document, Copy Link, Jump to Chat, or Delete.\n• Stealth Foreground Service Notification Info: Clear explanation and control over the background push service notification ('Chess AI Engine • Standing by') keeping real-time calls and messages active without delay.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 23471470,
-  "sha256": "642891D6789A47ECB188CD499A2462E84A0F40C2F0846C7B78F380C107912405",
-  "publishedAt": "2026-10-28T14:45:00Z"
+  "apkSizeBytes": 23480398,
+  "sha256": "14009178112743E50725926F763BAABF45920D121E841E63788AA2A0D7817C89",
+  "publishedAt": "2026-10-28T15:42:00Z"
 }

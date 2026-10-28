@@ -1,12 +1,12 @@
 {
-  "versionCode": 39,
-  "versionName": "3.2.1",
-  "tagName": "v3.2.1",
-  "releaseTitle": "ATalk v3.2.1 — Chat Reliability, Instant Send & Realtime Sync Fixes",
-  "releaseNotes": "• Fixed contact conversation resolution bug: Messages now send reliably without foreign key errors when opened from Contacts\n• Fixed Realtime WebSocket token authentication: Supabase CDC events now stream instantly with authenticated RLS permissions\n• Sub-2s fallback sync: Incoming messages appear within 2 seconds even under aggressive cellular carrier packet drops\n• On-demand peer sync: Sending a message immediately refreshes conversation state for seamless bidirectional chat",
+  "versionCode": 40,
+  "versionName": "3.2.2",
+  "tagName": "v3.2.2",
+  "releaseTitle": "ATalk v3.2.2 — Read Receipts (Double/Blue Ticks), Chat Previews, 8-Digit OTP & Stealth Notification Disguises",
+  "releaseNotes": "• Read Receipts & Status Ticks: Full delivery tracking with single grey tick (Sent), double grey tick (Delivered), and cyan double tick (Read).\n• Live Chat Previews & Indicators: Chat list shows rich previews (Voice message, Location, Photo, Document) and instant outgoing delivery ticks.\n• 8-Digit Cryptographic OTP: Upgraded email linking and authentication verification from 6-digit to high-entropy 8-digit OTP.\n• 5 Stealth Notification Disguises: Selectable disguise personas in Settings (Android System & Battery, Calendar & Schedule, Stealth Haptic Pulse, Courier Tracking, Chess Tactics, or Disabled) to keep private chats fully hidden on lock screen.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 53284138,
-  "sha256": "6614EA32CC47CB255DDBE7E9872AA0992DAB0F78F3251FB31E5717D637F54B0D",
-  "publishedAt": "2026-10-28T06:05:00Z"
+  "apkSizeBytes": 53300522,
+  "sha256": "2EDD0E060EB20E6C5C64639D1D85465EECE813890A05A0F62B724346C749F08B",
+  "publishedAt": "2026-10-28T08:05:00Z"
 }

@@ -1,12 +1,12 @@
 {
-  "versionCode": 44,
-  "versionName": "3.4.2",
-  "tagName": "v3.4.2",
-  "releaseTitle": "ATalk v3.4.2 — Realtime Background Push & Calls, Missed Call Alerts, Chat Message Pagination & Preview Tick Fix",
-  "releaseNotes": "• Realtime Push & Immediate Alerts: Implemented persistent stealth foreground service (AppPushService) and global Phoenix WebSocket channels. Incoming messages and calls trigger immediately (<50ms) even when the app is in the background, phone is locked, or playing Chess.\n• Missed Call Notifications: Calls that end without being answered immediately post a consolidated Missed Call notification respecting stealth disguise personas.\n• Chat Message Truncation Fix: Corrected PostgreSQL RPC (get_conversation_messages_v2) to order by created_at DESC with limit, resolving the bug where chats with >60 messages stopped showing new messages and read receipts.\n• Chat List Preview Checkmark Fix: Fixed preview tick logic so checkmarks (✓/✓✓) only appear for your own sent messages, never for incoming contact messages.",
+  "versionCode": 45,
+  "versionName": "3.4.3",
+  "tagName": "v3.4.3",
+  "releaseTitle": "ATalk v3.4.3 — Message Reactions Sync, 'Notify Once' Policy, Discrete Calls, and Contact Profile Hub",
+  "releaseNotes": "• Message Reactions Sync: Real-time synchronization of heart emoji (❤️) and emoji reactions across sender and receiver devices via Phoenix WebSockets, PostgreSQL JSONB storage, and local disk cache persistence.\n• 'Notify Once Until Read' Notification Policy: Strictly alerts on the first incoming message. Subsequent messages sent while unread remain completely silent without repeated notification disturbance until the chat is opened.\n• Discrete Call Notifications ('Don't Ring the Bell'): Replaced continuous telephone ringtone bell with a gentle notification chime and vibration (identical to message alerts) on a dedicated channel.\n• WhatsApp/Telegram-style Contact Profile: Tapping avatar or contact header opens a full Contact Details sheet with quick actions (Audio/Video Call, Mute, Search in Chat, Disappearing Timer, Clear Chat, Block Contact).\n• Shared Media, Links & Documents Hub: Tabbed browser inside the Contact Details sheet to inspect all shared photos/videos in a thumbnail grid, shared documents/files, and web links extracted from the conversation.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 23451658,
-  "sha256": "63765A2B3B8F59F1C0BA92B5B7800A7FA36016B0B4BE8BE897D5C97A6766A518",
-  "publishedAt": "2026-10-28T12:45:00Z"
+  "apkSizeBytes": 23471470,
+  "sha256": "642891D6789A47ECB188CD499A2462E84A0F40C2F0846C7B78F380C107912405",
+  "publishedAt": "2026-10-28T14:45:00Z"
 }

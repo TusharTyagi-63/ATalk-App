@@ -1,12 +1,12 @@
 {
-  "versionCode": 42,
-  "versionName": "3.4.0",
-  "tagName": "v3.4.0",
-  "releaseTitle": "ATalk v3.4.0 — Read Receipts (Double Cyan Ticks), Clean Top Bar, Background Consolidated Notifications & Pull-Down Refresh",
-  "releaseNotes": "• Read Receipts (Double Blue/Cyan Ticks): Fixed delivery tick calculation and read status reconciliation so sent messages immediately flip to double cyan ticks when read or replied to.\n• Clean Top Bar UI: Moved Search and Theme options into the three-dot overflow menu, giving contact names full width without truncation.\n• Background & Grouped Notifications: Continuous background sync for incoming messages and calls when outside the app; strictly consolidated into a single message notification and single call notification.\n• Pull-Down Refresh: Added native Material 3 pull-down refresh to chat to instantly force-sync messages and read receipts.",
+  "versionCode": 43,
+  "versionName": "3.4.1",
+  "tagName": "v3.4.1",
+  "releaseTitle": "ATalk v3.4.1 — 58% Size Reduction (53MB -> 22.3MB), Compressed Native Binaries & Codec Trimming",
+  "releaseNotes": "• 58% APK Size Reduction: Reduced release package size from 53.3 MB down to 22.3 MB via native library compression (useLegacyPackaging) and stripping redundant software codecs (AV1 software codec, SoundTouch, VQA extensions) while maintaining full hardware H.264 video and Opus VoIP calling.\n• Read Receipts & Double Cyan Ticks (✓✓): Reliable read status reconciliation and instant-sync on peer reply.\n• Clean Top Bar UI: Search and Themes moved inside the three-dot overflow menu for maximum contact title clarity.\n• Background Consolidated Notifications: 24/7 background push for calls and messages, strictly limited to 1 message card and 1 call card.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 53284138,
-  "sha256": "B1E9893A231AA626CB07D78D5B832FADCEA4E9E7C1F12697EEB4845F9D3E7CAE",
-  "publishedAt": "2026-10-28T10:15:00Z"
+  "apkSizeBytes": 23448974,
+  "sha256": "F9D6B17C06267D9E8C7BD081A1497478A08B56C55161801E141343F8994E7DD3",
+  "publishedAt": "2026-10-28T10:33:00Z"
 }

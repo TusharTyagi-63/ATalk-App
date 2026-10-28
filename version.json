@@ -1,12 +1,12 @@
 {
-  "versionCode": 43,
-  "versionName": "3.4.1",
-  "tagName": "v3.4.1",
-  "releaseTitle": "ATalk v3.4.1 — 58% Size Reduction (53MB -> 22.3MB), Compressed Native Binaries & Codec Trimming",
-  "releaseNotes": "• 58% APK Size Reduction: Reduced release package size from 53.3 MB down to 22.3 MB via native library compression (useLegacyPackaging) and stripping redundant software codecs (AV1 software codec, SoundTouch, VQA extensions) while maintaining full hardware H.264 video and Opus VoIP calling.\n• Read Receipts & Double Cyan Ticks (✓✓): Reliable read status reconciliation and instant-sync on peer reply.\n• Clean Top Bar UI: Search and Themes moved inside the three-dot overflow menu for maximum contact title clarity.\n• Background Consolidated Notifications: 24/7 background push for calls and messages, strictly limited to 1 message card and 1 call card.",
+  "versionCode": 44,
+  "versionName": "3.4.2",
+  "tagName": "v3.4.2",
+  "releaseTitle": "ATalk v3.4.2 — Realtime Background Push & Calls, Missed Call Alerts, Chat Message Pagination & Preview Tick Fix",
+  "releaseNotes": "• Realtime Push & Immediate Alerts: Implemented persistent stealth foreground service (AppPushService) and global Phoenix WebSocket channels. Incoming messages and calls trigger immediately (<50ms) even when the app is in the background, phone is locked, or playing Chess.\n• Missed Call Notifications: Calls that end without being answered immediately post a consolidated Missed Call notification respecting stealth disguise personas.\n• Chat Message Truncation Fix: Corrected PostgreSQL RPC (get_conversation_messages_v2) to order by created_at DESC with limit, resolving the bug where chats with >60 messages stopped showing new messages and read receipts.\n• Chat List Preview Checkmark Fix: Fixed preview tick logic so checkmarks (✓/✓✓) only appear for your own sent messages, never for incoming contact messages.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 23448974,
-  "sha256": "F9D6B17C06267D9E8C7BD081A1497478A08B56C55161801E141343F8994E7DD3",
-  "publishedAt": "2026-10-28T10:33:00Z"
+  "apkSizeBytes": 23451658,
+  "sha256": "63765A2B3B8F59F1C0BA92B5B7800A7FA36016B0B4BE8BE897D5C97A6766A518",
+  "publishedAt": "2026-10-28T12:45:00Z"
 }

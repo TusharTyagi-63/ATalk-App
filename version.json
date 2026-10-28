@@ -1,12 +1,12 @@
 {
-  "versionCode": 41,
-  "versionName": "3.3.0",
-  "tagName": "v3.3.0",
-  "releaseTitle": "ATalk v3.3.0 — WhatsApp-Grade 2G Low-Network Messaging, VoIP Resilience & Pure Master PIN Security",
-  "releaseNotes": "• Pure Master PIN Security: Removed all fingerprint options and biometric unlock vectors from app settings, vault setup, and stealth notes triggers to eliminate unauthorized lock-screen access on shared devices. Hidden vault is strictly protected by 6-digit Master PIN and stealth triggers.\n• WhatsApp-Grade 2G Low-Network Messaging: Optimized polling with incremental delta sync (<300 bytes payload) and persistent HTTP/2 connection pooling with keep-alive to eliminate slow TLS handshakes on EDGE/2G.\n• Ultra-Low Bandwidth VoIP Calling: Adaptive Opus audio compression down to 12 kbps, in-band Forward Error Correction (FEC), DTX silence suppression, and live weak-network status indicators.",
+  "versionCode": 42,
+  "versionName": "3.4.0",
+  "tagName": "v3.4.0",
+  "releaseTitle": "ATalk v3.4.0 — Read Receipts (Double Cyan Ticks), Clean Top Bar, Background Consolidated Notifications & Pull-Down Refresh",
+  "releaseNotes": "• Read Receipts (Double Blue/Cyan Ticks): Fixed delivery tick calculation and read status reconciliation so sent messages immediately flip to double cyan ticks when read or replied to.\n• Clean Top Bar UI: Moved Search and Theme options into the three-dot overflow menu, giving contact names full width without truncation.\n• Background & Grouped Notifications: Continuous background sync for incoming messages and calls when outside the app; strictly consolidated into a single message notification and single call notification.\n• Pull-Down Refresh: Added native Material 3 pull-down refresh to chat to instantly force-sync messages and read receipts.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 53284134,
-  "sha256": "F9432AD49182F9CC3361942C3B3F28030769FBEB88CE725302E3FF750CC2F884",
-  "publishedAt": "2026-10-28T09:30:00Z"
+  "apkSizeBytes": 53284138,
+  "sha256": "B1E9893A231AA626CB07D78D5B832FADCEA4E9E7C1F12697EEB4845F9D3E7CAE",
+  "publishedAt": "2026-10-28T10:15:00Z"
 }

@@ -1,12 +1,12 @@
 {
-  "versionCode": 47,
-  "versionName": "3.4.5",
-  "tagName": "v3.4.5",
-  "releaseTitle": "ATalk v3.4.5 — Pure Telegram-Style Click Flow, Inline Reactions & Clean Header",
-  "releaseNotes": "• Pure Telegram-Style Message Click: Non-intrusive anchored action menu directly at the bubble with transparent dismiss layer, preserving uninterrupted conversation flow.\n• Inline Reactions Inside Bubble: Applied reaction badges now sit cleanly inside the message container beneath the message content.\n• Streamlined Action Menu: Removed duplicate 'Select' action (multi-selection handled via continuous tapping/long-press).\n• Clean Username: Blue verified tick badge removed from user header.\n• 120Hz Dynamic UI: Dynamic Island call pill, elastic swipe-to-reply, consecutive adaptive bubble morphing & kinetic photo lightbox.",
+  "versionCode": 48,
+  "versionName": "3.4.6",
+  "tagName": "v3.4.6",
+  "releaseTitle": "ATalk v3.4.6 — Pure Telegram Click Flow (No Click Pop-up), Inline Reactions & Clean Header",
+  "releaseNotes": "• Smooth Conversation Flow: Single click on message row now produces gentle ripple feedback and NEVER opens a pop-up. Context actions are reserved strictly for long-press.\n• Inline Reactions Inside Bubble: Applied reaction badges now sit cleanly inside the message box container directly beneath the message content.\n• Streamlined Action Menu: Removed duplicate 'Select' action (multi-selection handled via continuous tapping/long-press).\n• Clean Username: Blue verified tick badge removed from user header.\n• 120Hz Dynamic UI: Dynamic Island call pill, elastic swipe-to-reply, consecutive adaptive bubble morphing & kinetic photo lightbox.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 23488250,
-  "sha256": "3EFBE8E653314263A67ACA7C738B07A4BFA0A978286CF54CEE77EBBFE71E1D64",
-  "publishedAt": "2026-10-29T14:05:00Z"
+  "apkSizeBytes": 23488226,
+  "sha256": "221EA1CA304E9950E23F421D00CB64D32665CE5EA786C981F1C1581E97923781",
+  "publishedAt": "2026-10-29T14:28:00Z"
 }

@@ -2,11 +2,11 @@
   "versionCode": 47,
   "versionName": "3.4.5",
   "tagName": "v3.4.5",
-  "releaseTitle": "ATalk v3.4.5 — 120Hz Dynamic UI Upgrades: Dynamic Island, Elastic Swipe-to-Reply, Adaptive Bubble Morphing & Kinetic Lightbox",
-  "releaseNotes": "• Dynamic Island Call Capsule & Expanded Controls: Live audio waveform visualizer and call timer pill in header that fluidly expands into frosted Mute, Speakerphone, and End Call actions.\n• Elastic Swipe-to-Reply: Telegram-style inward drag with rotating cyan curved arrow and spring damping release to quote messages.\n• Adaptive Bubble Morphing: Telegram-style corner radius morphing (16dp to 4dp) and tight 4dp grouping for consecutive messages from the same sender.\n• Kinetic Lightbox Viewer: Fullscreen OLED black photo viewer with pinch-to-zoom (up to 4x), double-tap zoom toggle (2.2x), and swipe-down-to-dismiss with real-time backdrop opacity fading.\n• Ambient Cyber Glaze: Soft cyberpunk bloom under media cards on OLED black.",
+  "releaseTitle": "ATalk v3.4.5 — Pure Telegram-Style Click Flow, Inline Reactions & Clean Header",
+  "releaseNotes": "• Pure Telegram-Style Message Click: Non-intrusive anchored action menu directly at the bubble with transparent dismiss layer, preserving uninterrupted conversation flow.\n• Inline Reactions Inside Bubble: Applied reaction badges now sit cleanly inside the message container beneath the message content.\n• Streamlined Action Menu: Removed duplicate 'Select' action (multi-selection handled via continuous tapping/long-press).\n• Clean Username: Blue verified tick badge removed from user header.\n• 120Hz Dynamic UI: Dynamic Island call pill, elastic swipe-to-reply, consecutive adaptive bubble morphing & kinetic photo lightbox.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 23487214,
-  "sha256": "74A57A31A736EE7326A19270B26C8343C49FC6DFA046AC4A9C6B9CB5323D4B40",
-  "publishedAt": "2026-10-29T13:22:00Z"
+  "apkSizeBytes": 23488250,
+  "sha256": "3EFBE8E653314263A67ACA7C738B07A4BFA0A978286CF54CEE77EBBFE71E1D64",
+  "publishedAt": "2026-10-29T14:05:00Z"
 }

@@ -1,8 +1,8 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v3.2.0-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
-[![APK Size](https://img.shields.io/badge/APK%20Size-50.8%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
+[![Release](https://img.shields.io/badge/Release-v3.4.5-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-22.4%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 
@@ -12,7 +12,9 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.2.0 (Latest)` | 50.8 MB | `026B2C4C78E71900DAD9A8576AD5FAD8426FED809CFA445BA19A768C975BE7B4` | Milestone 3.2.0: Instantaneous chat list & message loading from local encrypted disk cache in < 1ms on Frame 0 with zero wait time; Fixed chat opening scroll position to immediately show latest messages at bottom with 0ms delay; Suppressed all notifications globally; Retains full WhatsApp-grade low-bandwidth audio/video engine. |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.4.5 (Latest)` | 22.4 MB | `74A57A31A736EE7326A19270B26C8343C49FC6DFA046AC4A9C6B9CB5323D4B40` | Milestone 3.4.5: 120Hz dynamic fluid UI upgrades (Dynamic Island call capsule & expanded controls, elastic swipe-to-reply with curved rotating indicator, adaptive bubble corner morphing & 4dp grouping, kinetic photo lightbox with pinch-to-zoom & swipe-down dismiss, ambient cyber glaze). |
+| **[ATalk-v3.4.5.apk](ATalk-v3.4.5.apk)** | `v3.4.5` | 22.4 MB | `74A57A31A736EE7326A19270B26C8343C49FC6DFA046AC4A9C6B9CB5323D4B40` | Milestone 3.4.5: Dynamic Island call pill, elastic swipe-to-reply physics, consecutive adaptive bubble morphing, kinetic lightbox viewer with pinch-to-zoom & swipe-down dismiss. |
+| **[ATalk-v3.4.4.apk](ATalk-v3.4.4.apk)** | `v3.4.4` | 22.4 MB | `14009178112743E50725926F763BAABF45920D121E841E63788AA2A0D7817C89` | Milestone 3.4.4: Shared media selective delete, 'Go to in Chat' jump with highlight glow, and action menus. |
 | **[ATalk-v3.2.0.apk](ATalk-v3.2.0.apk)** | `v3.2.0` | 50.8 MB | `026B2C4C78E71900DAD9A8576AD5FAD8426FED809CFA445BA19A768C975BE7B4` | Milestone 3.2.0: Frame-0 instant cache hydration, smart bottom scroll on chat entry without old message flash, global notification silence, optimized performance on low-bandwidth networks. |
 | **[ATalk-v3.1.0.apk](ATalk-v3.1.0.apk)** | `v3.1.0` | 50.8 MB | `4AAC32316034467D007020ECA006172D5645494092C9F69FF0C1A7EF45498661` | Milestone 3.1.0: WhatsApp-Grade Low-Bandwidth VoIP Engine (Adaptive 360p video, 65-350kbps bitrate ladder, Audio DTX, In-Band Audio/Video FEC), OkHttp Connection Pooling & Keep-Alive reducing latency by 75%, 2G-resilient 15s/20s timeouts with auto-retry, Pre-upload image compression down to ~100KB, In-App OTA auto-update engine via version.json |
 | **[ATalk-v3.0.apk](ATalk-v3.0.apk)** | `v3.0` | 7.20 MB | `714E79E95F9695A97A671E91659FF461C9636951BE5A3B827C11783659397355` | Milestone 3.0: Full Native C++ Audio Pipeline (Oboe + SpeexDSP MDF + RNNoise GRU), Biquad Resonant Notch Filters, Soft-Knee Tanh Limiter, External Picker Auto-Lock Protection, Telegram Drag Select, Contact & Live Location Cards |

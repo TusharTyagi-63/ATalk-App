@@ -1,12 +1,12 @@
 {
-  "versionCode": 49,
-  "versionName": "3.4.7",
-  "tagName": "v3.4.7",
-  "releaseTitle": "ATalk v3.4.7 — One-Click Telegram Popup, Deduplicated Actions, Full Emoji Lineup, HD Photos & Dynamic Big Emojis",
-  "releaseNotes": "• One-Click Message Popup: Single tap on any message immediately opens the anchored Telegram popup card.\n• Action Deduplication: Removed duplicate Copy, Forward, and Delete from popup (handled cleanly in top header during selection).\n• Full Reaction Lineup: Expanded reaction strip to the full Telegram most-used emoji lineup with smooth horizontal scrolling.\n• Original HD Quality Photos: Added HD toggle to send 100% uncompressed raw camera bytes with cyan HD badge on bubble.\n• Dynamic Big Emojis: Single emojis render at 58sp with animated heartbeat pulse on hearts and borderless floating container.",
+  "versionCode": 50,
+  "versionName": "3.4.8",
+  "tagName": "v3.4.8",
+  "releaseTitle": "ATalk v3.4.8 — Authentic Telegram Polish, Anchored Popups, Cover Notification Disguise & Fluid Chat UX",
+  "releaseNotes": "• Anchored Context Menu: Single tap opens the popup dynamically adjacent to the message with a dimmed focus scrim.\n• Verified Shield Removed: Removed the blue verified checkmark icon next to contact usernames in the top bar.\n• 100% Notes Cover Notification: Persistent foreground service notification now displays 'Notes Cloud Sync: All notes up to date' matching the Notes app disguise.\n• Interactive Reaction Pills: Direct-on-bubble reactions with cyan glow when reacted, tap-to-toggle, and animated numeric tickers.\n• Double-Tap Quick React: Double-tap sends ❤️ with radiating starburst particles and acoustic feedback.\n• Floating Scroll-To-Bottom: Reading history is never interrupted; downward button with unread counter (+1, +2) glides to latest messages.\n• Continuous Drag-to-Select: Long-press and drag up/down with automatic edge viewport scrolling.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 23490622,
-  "sha256": "EBF6EEC4A41224FA968680CC9595C254858B0ED2E529C869CEA6F9B092208339",
-  "publishedAt": "2026-10-29T15:08:00Z"
+  "apkSizeBytes": 23498890,
+  "sha256": "0081FC62751D1A15119FE507E66671BA18CCA5B49950C040FE977BD2A768A344",
+  "publishedAt": "2026-10-29T16:35:00Z"
 }

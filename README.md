@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v3.4.6-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v3.4.8-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-22.4%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,8 +12,9 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.4.6 (Latest)` | 22.4 MB | `221EA1CA304E9950E23F421D00CB64D32665CE5EA786C981F1C1581E97923781` | Milestone 3.4.6: Single-tap never opens pop-up (ripple only, uninterrupted conversation flow), inline reactions docked inside bubble under text, clean contact header without verified tick, duplicate select removed, and 120Hz dynamic fluid UI suite. |
-| **[ATalk-v3.4.6.apk](ATalk-v3.4.6.apk)** | `v3.4.6` | 22.4 MB | `221EA1CA304E9950E23F421D00CB64D32665CE5EA786C981F1C1581E97923781` | Milestone 3.4.6: Uninterrupted single-tap flow, long-press menu only, inline reactions inside bubble, clean header username, dynamic island call pill, elastic swipe-to-reply, adaptive bubble morphing & kinetic lightbox. |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.4.8 (Latest)` | 22.4 MB | `0081FC62751D1A15119FE507E66671BA18CCA5B49950C040FE977BD2A768A344` | Milestone 3.4.8: Authentic Telegram Polish — anchored context menu with dimmed focus scrim, verified tick removed from contact header, 100% Notes Cover notification disguise ("Notes Cloud Sync: All notes up to date"), interactive on-bubble reaction pills, double-tap quick react with starburst particles, floating scroll-to-bottom button with unread counter, and continuous drag-select with auto edge scrolling. |
+| **[ATalk-v3.4.8.apk](ATalk-v3.4.8.apk)** | `v3.4.8` | 22.4 MB | `0081FC62751D1A15119FE507E66671BA18CCA5B49950C040FE977BD2A768A344` | Milestone 3.4.8: Anchored popup next to message bubble, 100% Notes Cover notification disguise, clean header, interactive reaction pills, double-tap quick react with starburst particles, floating scroll-to-bottom button with unread counter, and continuous drag-select. |
+| **[ATalk-v3.4.7.apk](ATalk-v3.4.7.apk)** | `v3.4.7` | 22.4 MB | `EBF6EEC4A41224FA968680CC9595C254858B0ED2E529C869CEA6F9B092208339` | Milestone 3.4.7: One-click message popup, deduplicated top header actions, full Telegram reaction lineup, HD original photo sending, and dynamic 58sp big emojis with heartbeat pulse. |
 | **[ATalk-v3.4.5.apk](ATalk-v3.4.5.apk)** | `v3.4.5` | 22.4 MB | `3EFBE8E653314263A67ACA7C738B07A4BFA0A978286CF54CEE77EBBFE71E1D64` | Milestone 3.4.5: Telegram click interaction, inline reactions inside bubble, clean header username, dynamic island call pill, elastic swipe-to-reply, adaptive bubble corner morphing & kinetic lightbox. |
 | **[ATalk-v3.4.4.apk](ATalk-v3.4.4.apk)** | `v3.4.4` | 22.4 MB | `14009178112743E50725926F763BAABF45920D121E841E63788AA2A0D7817C89` | Milestone 3.4.4: Shared media selective delete, 'Go to in Chat' jump with highlight glow, and action menus. |
 | **[ATalk-v3.2.0.apk](ATalk-v3.2.0.apk)** | `v3.2.0` | 50.8 MB | `026B2C4C78E71900DAD9A8576AD5FAD8426FED809CFA445BA19A768C975BE7B4` | Milestone 3.2.0: Frame-0 instant cache hydration, smart bottom scroll on chat entry without old message flash, global notification silence, optimized performance on low-bandwidth networks. |

@@ -1,12 +1,12 @@
 {
-  "versionCode": 53,
-  "versionName": "3.5.1",
-  "tagName": "v3.5.1",
-  "releaseTitle": "ATalk v3.5.1 — Master Core Upgrades: Animation, GPU Graphics & Structure",
-  "releaseNotes": "• 01 Shared-Element Container Morph: Organic zero-cut spring expansion when tapping message media thumbnails into MediaLightboxDialog.\n• 02 Bowstring Elastic Swipe-to-Reply: Non-linear Hooke's-law spring resistance with coiling cyan reply arrow and magnetic tactile haptics.\n• 03 AGSL Chromatic Glass Shader: Hardware optical refraction (n=1.33) & chromatic dispersion on Android 13+.\n• 04 OLED Heat-Dissolve Particles: Thermal ember sparks and rising particles disintegrating expired ephemeral burner messages.\n• 05 Floating Capsule Command Dock: Elevated acrylic command dock hovering 12dp above the gesture bar across Chats, Updates, and Calls.\n• 06 Multi-Layered Card Stacking: Progressive depth scaling (94%) and dimming for stacked modal sheets.\n• 07 Spatial Island Header: Contextual dynamic HUD pill morphing between idle contact info, peer typing waveforms, and audio controls.\n• 08 Modular Bento-Grid Media Vault: Asymmetric high-density tiles in Contact Details (Voice Reel, Media Cluster, Encrypted Docs, Geo Radar).\n• 09 Contextual Radial Thumb-Radar: Ergonomic thumb-arc fan dial for 1-touch media, documents, and tool selection.\n• 10 Adaptive Dual-Pane Foldable Layout: Dual-pane 35%/65% split for tablets and foldables, seamlessly collapsing on phones.\n• 11 'Omni-Drawer' Left-Edge Tactical HUD: Bezel-swipe acrylic drawer with workspace switcher, live Supabase ping, and fast theme switcher.",
+  "versionCode": 54,
+  "versionName": "3.5.2",
+  "tagName": "v3.5.2",
+  "releaseTitle": "ATalk v3.5.2 — Architecture & Structural Cleanup Release",
+  "releaseNotes": "• 01 Safe Dead Code Elimination: Purged obsolete and duplicate code modules (MediaPickerSheet.kt, MediaAttachmentSheet.kt) with zero regressions.\n• 02 WebSocket-First Network Governor: Eliminated aggressive multi-loop REST polling (reducing HTTP requests from >100/min to idle 45s keepalive) whenever Supabase Realtime WebSocket is healthy.\n• 03 Persistent Offline Outbox Queue: Encrypted AES-256 outbox queue storing unsent messages during offline blips with automatic FIFO dispatch upon network reconnection.\n• 04 ChatRoom Modular Decomposition: Extracted floating capsules and dialogs (StarredMessagesDialog, DynamicIslandCallCapsule, ReactionParticleBurst) into ChatRoomModals.kt.\n• 05 Unified Lightbox Architecture: Upgraded ContactDetailsSheet avatar viewer to use the high-fidelity AvatarLightboxDialog with zoom, pan, and tactile haptics.\n• 06 Attachment Menu Unification: Retired dormant 8-tile drawer in favor of the ergonomic Contextual Radial Thumb-Radar.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33516160,
-  "sha256": "76c4eb96670614690c3e23aebecde7dd34662b34e924361563397b446974ec5d",
-  "publishedAt": "2026-10-31T17:45:00Z"
+  "apkSizeBytes": 33519468,
+  "sha256": "08e9cd97c6cc974f45f94e186107ed4e994eb4cd60d7e3205d6f58acbd993556",
+  "publishedAt": "2026-11-01T00:15:00Z"
 }

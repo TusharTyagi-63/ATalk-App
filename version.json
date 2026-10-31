@@ -1,12 +1,12 @@
 {
-  "versionCode": 52,
-  "versionName": "3.5.0",
-  "tagName": "v3.5.0",
-  "releaseTitle": "ATalk v3.5.0 — Telegram Keyboard Synchronization, Inward Centered Reactions, Pinned Media Picker & Lightbox Insets Fix",
-  "releaseNotes": "• Keyboard Inset Auto-Scroll: Messages dynamically glide upwards when the keyboard opens, keeping the latest messages fully visible directly above the input bar.\n• Symmetrical Inward Reactions: Reacted emojis mirror symmetrically towards the center of the chat from both incoming and outgoing bubbles.\n• Compact Telegram Input Bar: Removed redundant HD and View-Once buttons from the text bar, reducing bar height to a sleek 40dp.\n• Pinned Media Picker Footer: In-app media picker bottom sheet opens directly without clipping; Send button, selection count, HD toggle, and new ① View-Once toggle are pinned securely at the bottom.\n• Status Media Composer Screen Insets: Fully responsive Scaffold layout with statusBarsPadding, navigationBarsPadding, and imePadding so caption input and WhatsApp-green Post button never overflow or hide behind keyboard.\n• Lightbox Navigation Bar Protection: Fullscreen media viewer's Save and Share buttons are elevated above 3-button and gesture navigation bars.",
+  "versionCode": 53,
+  "versionName": "3.5.1",
+  "tagName": "v3.5.1",
+  "releaseTitle": "ATalk v3.5.1 — Master Core Upgrades: Animation, GPU Graphics & Structure",
+  "releaseNotes": "• 01 Shared-Element Container Morph: Organic zero-cut spring expansion when tapping message media thumbnails into MediaLightboxDialog.\n• 02 Bowstring Elastic Swipe-to-Reply: Non-linear Hooke's-law spring resistance with coiling cyan reply arrow and magnetic tactile haptics.\n• 03 AGSL Chromatic Glass Shader: Hardware optical refraction (n=1.33) & chromatic dispersion on Android 13+.\n• 04 OLED Heat-Dissolve Particles: Thermal ember sparks and rising particles disintegrating expired ephemeral burner messages.\n• 05 Floating Capsule Command Dock: Elevated acrylic command dock hovering 12dp above the gesture bar across Chats, Updates, and Calls.\n• 06 Multi-Layered Card Stacking: Progressive depth scaling (94%) and dimming for stacked modal sheets.\n• 07 Spatial Island Header: Contextual dynamic HUD pill morphing between idle contact info, peer typing waveforms, and audio controls.\n• 08 Modular Bento-Grid Media Vault: Asymmetric high-density tiles in Contact Details (Voice Reel, Media Cluster, Encrypted Docs, Geo Radar).\n• 09 Contextual Radial Thumb-Radar: Ergonomic thumb-arc fan dial for 1-touch media, documents, and tool selection.\n• 10 Adaptive Dual-Pane Foldable Layout: Dual-pane 35%/65% split for tablets and foldables, seamlessly collapsing on phones.\n• 11 'Omni-Drawer' Left-Edge Tactical HUD: Bezel-swipe acrylic drawer with workspace switcher, live Supabase ping, and fast theme switcher.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33497624,
-  "sha256": "7E657E0730C1A95228E014B2655AC10473E771E0A1279D908A2A2E5CE56B33ED",
-  "publishedAt": "2026-10-31T10:05:00Z"
+  "apkSizeBytes": 33516160,
+  "sha256": "76c4eb96670614690c3e23aebecde7dd34662b34e924361563397b446974ec5d",
+  "publishedAt": "2026-10-31T17:45:00Z"
 }

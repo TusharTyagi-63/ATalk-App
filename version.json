@@ -1,12 +1,12 @@
 {
-  "versionCode": 51,
-  "versionName": "3.4.9",
-  "tagName": "v3.4.9",
-  "releaseTitle": "ATalk v3.4.9 — Authentic Telegram Polish, In-App Media Picker, Matrix Reaction Grid & Delivery Engine Overhaul",
-  "releaseNotes": "• Delivery Status Bug Fix: Sent messages strictly display a single grey check (SENT) until verified received or read. Zero false blue ticks when the recipient is offline.\n• Telegram In-App Media Picker: Dedicated bottom sheet with 3-column device camera roll grid, live camera tile, numbered circular badges (1, 2, 3), HD toggle, and status upload fix.\n• Telegram 2D Matrix Grid: Reaction popup features a 7x4 matrix grid showing 28 top emojis immediately without scrolling.\n• Unboxed Inline Reactions: Removed enclosing cards and borders; bare emoji counters sit directly beside the timestamp and delivery checks.\n• Theme & Wallpaper Studio Persistence: All 5 ATalkThemeId palettes with color swatches and encrypted VaultManager wallpaper pattern/opacity persistence.\n• Notification Sound Studio: 5 customizable sound themes with live audio preview buttons and dynamic channel binding.\n• Kinetic Lightbox & Frosted Blur: Telephoto pinch-to-zoom & spring drag-to-dismiss photo viewer with Haze real-time acrylic backdrop blur.",
+  "versionCode": 52,
+  "versionName": "3.5.0",
+  "tagName": "v3.5.0",
+  "releaseTitle": "ATalk v3.5.0 — Telegram Keyboard Synchronization, Inward Centered Reactions, Pinned Media Picker & Lightbox Insets Fix",
+  "releaseNotes": "• Keyboard Inset Auto-Scroll: Messages dynamically glide upwards when the keyboard opens, keeping the latest messages fully visible directly above the input bar.\n• Symmetrical Inward Reactions: Reacted emojis mirror symmetrically towards the center of the chat from both incoming and outgoing bubbles.\n• Compact Telegram Input Bar: Removed redundant HD and View-Once buttons from the text bar, reducing bar height to a sleek 40dp.\n• Pinned Media Picker Footer: In-app media picker bottom sheet opens directly without clipping; Send button, selection count, HD toggle, and new ① View-Once toggle are pinned securely at the bottom.\n• Status Media Composer Screen Insets: Fully responsive Scaffold layout with statusBarsPadding, navigationBarsPadding, and imePadding so caption input and WhatsApp-green Post button never overflow or hide behind keyboard.\n• Lightbox Navigation Bar Protection: Fullscreen media viewer's Save and Share buttons are elevated above 3-button and gesture navigation bars.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33496588,
-  "sha256": "7D3EA8182C3D831C9C04046ACEF63F64F0C40237C323A3358346BB3485A2975D",
-  "publishedAt": "2026-10-31T08:20:00Z"
+  "apkSizeBytes": 33497624,
+  "sha256": "7E657E0730C1A95228E014B2655AC10473E771E0A1279D908A2A2E5CE56B33ED",
+  "publishedAt": "2026-10-31T10:05:00Z"
 }

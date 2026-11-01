@@ -1,12 +1,12 @@
 {
-  "versionCode": 56,
-  "versionName": "3.5.4",
-  "tagName": "v3.5.4",
-  "releaseTitle": "ATalk v3.5.4 — Expanded Header, Top-Right Anchored Menu, Zero-Background Policy & Settings Restructure",
-  "releaseNotes": "• 01 Expanded Header & Dynamic Last Seen: Increased avatar capsule height to 54dp, avatar circle to 40dp, with live status formatting (pulsing green dot for 'online', friendly last seen times, and dedicated 'messages to yourself' for Saved Messages).\n• 02 Top-Right Anchored More Options Menu: Anchored DropdownMenu directly inside the top-right three-dots button layout node, opening flawlessly from the top-right.\n• 03 Pruned More Options Menu: Removed clutter (Mute Notifications, Voice Scrambler, Nickname, Clear Chat, Lock Vault), keeping 5 essential core actions.\n• 04 Unified Theme & Wallpaper Studio: Merged OLED Accent Themes, Wallpaper Patterns, and Doodle Opacity into a single cohesive sheet.\n• 05 Complete Removal of Voice Scrambler: Fully excised legacy voice scrambler dialog and references.\n• 06 Zero-Background Execution Policy: Disabled automatic background foreground service and polling loops; when minimized, ATalk consumes 0% CPU and 0 background battery.\n• 07 Restructured Settings & Navigation Drawer: Organized Settings into 5 intuitive categories and purged all fake telemetry (simulated ping & mock workspaces) from the side drawer.",
+  "versionCode": 57,
+  "versionName": "3.5.5",
+  "tagName": "v3.5.5",
+  "releaseTitle": "ATalk v3.5.5 — Streamlined Navigation, Ephemeral Auto-Destruct & Chat Actions",
+  "releaseNotes": "• 01 Bottom Bar Streamline: Removed Settings button from the bottom floating capsule dock, creating a clean 3-tab layout (Chats, Updates, Calls).\n• 02 Chat List Cleanup: Removed pencil FAB from the bottom-right corner of the chat list screen.\n• 03 Chat Actions Relocation: Added 'Clear Chat' directly into the top-right More options dropdown menu with full dual-scope deletion ('Delete for Everyone' / 'Delete for Me') and removed it from the Contact Info sheet.\n• 04 Disappearing Messages Overhaul: Complete UI upgrade featuring tactical duration tiles (Off, 30s, 5m, 1h, 24h, 7d, 90d), burning live bubble preview, and volatile RAM hygiene certification.\n• 05 Real-Time Ephemeral Auto-Pruning: Accurate expiresAt timestamps, persistent per-conversation disappearing timers, real-time background countdown badges (e.g. 🔥 24h, 🔥 25s), and auto-purging of expired messages from cache and UI.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33499472,
-  "sha256": "84ac622451b0a2ccb65990e3cea71ab3a4626ff0ed98752a9b13779c7da3b4ab",
-  "publishedAt": "2026-11-01T12:40:00Z"
+  "apkSizeBytes": 33503020,
+  "sha256": "842e4ee0f178d003d1a5a3f7b2879018337af43a22775c2cea83c7b340829d4e",
+  "publishedAt": "2026-11-01T20:05:00Z"
 }

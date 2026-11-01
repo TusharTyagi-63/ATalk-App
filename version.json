@@ -1,12 +1,12 @@
 {
-  "versionCode": 55,
-  "versionName": "3.5.3",
-  "tagName": "v3.5.3",
-  "releaseTitle": "ATalk v3.5.3 — Modular Header Capsules, Elevated Input Deck & Clean Canvas Release",
-  "releaseNotes": "• 01 Tri-Module Header Capsules: Separated top bar into 3 distinct cyber-bordered modules (circular Back button capsule, center Avatar + Name + Subtitle capsule, and right-hand Call + More actions capsule).\n• 02 Elevated Message Input Deck: Shifted message box row up with 14dp ergonomic bottom padding for optimal gesture bar clearance.\n• 03 Clean Canvas Chat: Completely eradicated the large End-to-End Encrypted Bento Vault card from the empty chat screen and removed BentoMediaVault.\n• 04 Instant Mute/Unmute State Switching: Reactive Compose state binding ensuring mute/unmute buttons immediately and visibly toggle state on frame 0 (<1ms) upon click.",
+  "versionCode": 56,
+  "versionName": "3.5.4",
+  "tagName": "v3.5.4",
+  "releaseTitle": "ATalk v3.5.4 — Expanded Header, Top-Right Anchored Menu, Zero-Background Policy & Settings Restructure",
+  "releaseNotes": "• 01 Expanded Header & Dynamic Last Seen: Increased avatar capsule height to 54dp, avatar circle to 40dp, with live status formatting (pulsing green dot for 'online', friendly last seen times, and dedicated 'messages to yourself' for Saved Messages).\n• 02 Top-Right Anchored More Options Menu: Anchored DropdownMenu directly inside the top-right three-dots button layout node, opening flawlessly from the top-right.\n• 03 Pruned More Options Menu: Removed clutter (Mute Notifications, Voice Scrambler, Nickname, Clear Chat, Lock Vault), keeping 5 essential core actions.\n• 04 Unified Theme & Wallpaper Studio: Merged OLED Accent Themes, Wallpaper Patterns, and Doodle Opacity into a single cohesive sheet.\n• 05 Complete Removal of Voice Scrambler: Fully excised legacy voice scrambler dialog and references.\n• 06 Zero-Background Execution Policy: Disabled automatic background foreground service and polling loops; when minimized, ATalk consumes 0% CPU and 0 background battery.\n• 07 Restructured Settings & Navigation Drawer: Organized Settings into 5 intuitive categories and purged all fake telemetry (simulated ping & mock workspaces) from the side drawer.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33514496,
-  "sha256": "7c0aa196ad1b5ce9f3d52aecb3f4252d33926da53b474138ddd7664d13d6540c",
-  "publishedAt": "2026-11-01T10:18:00Z"
+  "apkSizeBytes": 33499472,
+  "sha256": "84ac622451b0a2ccb65990e3cea71ab3a4626ff0ed98752a9b13779c7da3b4ab",
+  "publishedAt": "2026-11-01T12:40:00Z"
 }

@@ -1,12 +1,12 @@
 {
-  "versionCode": 57,
-  "versionName": "3.5.5",
-  "tagName": "v3.5.5",
-  "releaseTitle": "ATalk v3.5.5 — Streamlined Navigation, Ephemeral Auto-Destruct & Chat Actions",
-  "releaseNotes": "• 01 Bottom Bar Streamline: Removed Settings button from the bottom floating capsule dock, creating a clean 3-tab layout (Chats, Updates, Calls).\n• 02 Chat List Cleanup: Removed pencil FAB from the bottom-right corner of the chat list screen.\n• 03 Chat Actions Relocation: Added 'Clear Chat' directly into the top-right More options dropdown menu with full dual-scope deletion ('Delete for Everyone' / 'Delete for Me') and removed it from the Contact Info sheet.\n• 04 Disappearing Messages Overhaul: Complete UI upgrade featuring tactical duration tiles (Off, 30s, 5m, 1h, 24h, 7d, 90d), burning live bubble preview, and volatile RAM hygiene certification.\n• 05 Real-Time Ephemeral Auto-Pruning: Accurate expiresAt timestamps, persistent per-conversation disappearing timers, real-time background countdown badges (e.g. 🔥 24h, 🔥 25s), and auto-purging of expired messages from cache and UI.",
+  "versionCode": 58,
+  "versionName": "3.6.0",
+  "tagName": "v3.6.0",
+  "releaseTitle": "ATalk v3.6.0 — Phone-Number-Free Contacts Hub, Biometric Auto-Lock, VoIP HUD & Deep Search",
+  "releaseNotes": "• 01 Phone-Number-Free Contacts Hub: Complete overhaul of Contacts & Peers with My Identity QR Badge sheet, Camera QR code viewfinder scanner, and direct peer pairing.\n• 02 Anti-Spam Friend Handshake & Categories: Organized Contacts into 3 tabs (All, Favorites, Requests). Incoming connection requests require explicit Accept / Decline / Block authorization.\n• 03 Biometric Inactivity Auto-Lock: Configurable background auto-lock timeout (Immediately, 1m, 5m, 15m, 1h, Never) that seamlessly drops into the decoy Notes app upon background expiration.\n• 04 Incognito Keyboard Enforcement: Added toggle to enforce flagNoPersonalizedLearning, preventing keyboard dictionaries (Gboard, SwiftKey) from learning or caching sensitive chat input.\n• 05 Call Network Quality HUD: Real-time latency (ms), packet loss, and 2G resilience indicator badge in the VoIP active call header.\n• 06 Video Call Screen Sharing: One-tap screen sharing control in the Active Call toolbar.\n• 07 Deep Cross-Chat Full-Text & Media Search: Search message histories across all conversations with category filters (All, Messages, Media, Files, Links) and direct jump-to-chat navigation.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33503020,
-  "sha256": "842e4ee0f178d003d1a5a3f7b2879018337af43a22775c2cea83c7b340829d4e",
-  "publishedAt": "2026-11-01T20:05:00Z"
+  "apkSizeBytes": 33522600,
+  "sha256": "a67c874b1f57bc98ae4aece77161ca2948955b5fe1976553eb0ae1161355dd0d",
+  "publishedAt": "2026-11-02T20:30:00Z"
 }

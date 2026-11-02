@@ -1,12 +1,12 @@
 {
-  "versionCode": 58,
-  "versionName": "3.6.0",
-  "tagName": "v3.6.0",
-  "releaseTitle": "ATalk v3.6.0 — Phone-Number-Free Contacts Hub, Biometric Auto-Lock, VoIP HUD & Deep Search",
-  "releaseNotes": "• 01 Phone-Number-Free Contacts Hub: Complete overhaul of Contacts & Peers with My Identity QR Badge sheet, Camera QR code viewfinder scanner, and direct peer pairing.\n• 02 Anti-Spam Friend Handshake & Categories: Organized Contacts into 3 tabs (All, Favorites, Requests). Incoming connection requests require explicit Accept / Decline / Block authorization.\n• 03 Biometric Inactivity Auto-Lock: Configurable background auto-lock timeout (Immediately, 1m, 5m, 15m, 1h, Never) that seamlessly drops into the decoy Notes app upon background expiration.\n• 04 Incognito Keyboard Enforcement: Added toggle to enforce flagNoPersonalizedLearning, preventing keyboard dictionaries (Gboard, SwiftKey) from learning or caching sensitive chat input.\n• 05 Call Network Quality HUD: Real-time latency (ms), packet loss, and 2G resilience indicator badge in the VoIP active call header.\n• 06 Video Call Screen Sharing: One-tap screen sharing control in the Active Call toolbar.\n• 07 Deep Cross-Chat Full-Text & Media Search: Search message histories across all conversations with category filters (All, Messages, Media, Files, Links) and direct jump-to-chat navigation.",
+  "versionCode": 59,
+  "versionName": "3.7.0",
+  "tagName": "v3.7.0",
+  "releaseTitle": "ATalk v3.7.0 — Zero-Trace EXIF Stripper, Anti-Mirror Shield, Hidden Safe & Core UI",
+  "releaseNotes": "• 01 Zero-Trace EXIF Stripper: Automatically sanitizes GPS, camera metadata, and timestamps from shared media.\n• 02 Anti-Screen Mirroring & Recording Sentinel: Real-time detection for Wi-Fi casting, Miracast, scrcpy, and screen capture.\n• 03 Hidden Safe: In-app AES-256-GCM encrypted vault with .nomedia protection for private photos and videos.\n• 04 Scheduled Delivery & Silent Dispatch: Long-press send to dispatch silently (0 dB) or schedule delivery.\n• 05 In-App Video Trimmer: Scrub slider with 720p Optimized vs Lossless Original compression presets.\n• 06 Pinned Chats Reordering: Expanded limit up to 10 pinned chats with drag/up-down reordering.\n• 07 Anonymous Group Admin Mode: Mask identity under group name and avatar.\n• 08 Expiring Passcode Group Invites: TTL expiration, max uses limit, and optional 4-digit PIN challenge.\n• 09 Mathematical & Sensory UI: C2 Superellipse squircle bubbles, logarithmic damped spring swipe-to-reply, cryptographic vector constellations, Matrix decryption reveal, and Zero-Light Redshift palette.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33522600,
-  "sha256": "a67c874b1f57bc98ae4aece77161ca2948955b5fe1976553eb0ae1161355dd0d",
-  "publishedAt": "2026-11-02T20:30:00Z"
+  "apkSizeBytes": 33572452,
+  "sha256": "fa278e9387f9099399b2e818030f3c55857ef081181efa4009f35bccb9981aab",
+  "publishedAt": "2026-11-02T21:50:00Z"
 }

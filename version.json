@@ -1,12 +1,12 @@
 {
-  "versionCode": 60,
-  "versionName": "3.8.0",
-  "tagName": "v3.8.0",
-  "releaseTitle": "ATalk v3.8.0 — Antigravity Cyber-Minimalist Bento Composer (Omni-Dock)",
-  "releaseNotes": "• 01 Antigravity Cyber-Minimalist Bento Composer: Floating omni-dock with sub-pixel 0.8dp borders, squircle corners, and backdrop blur.\n• 02 Integrated Context Micro-Chips: Real-time badges for 256-GCM cipher status, disappearing burner timer TTL, anonymous admin masking, and 0 dB silent dispatch toggle.\n• 03 Clean Modular Rollback: Fully self-contained composable architecture allowing effortless switching or reversion.\n• 04 Micro-Spring Touch Dynamics: Haptic spring feedback on send, mic, and attachment triggers.",
+  "versionCode": 61,
+  "versionName": "3.8.1",
+  "tagName": "v3.8.1",
+  "releaseTitle": "ATalk v3.8.1 — Classic Clean Composer Restored",
+  "releaseNotes": "• 01 Classic Clean Composer Restored: Reverted to the beloved streamlined native chat composer with zero screen clutter and full keyboard responsiveness.\n• 02 All Core Features Maintained: Zero-Trace EXIF Stripper, Anti-Screen Mirroring Sentinel, Hidden Safe encrypted vault, Video Trimmer, Expiring Invites, and Squircle Bubbles remain 100% active.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33574064,
-  "sha256": "db38c1e03749227166f8ada9c50e674e61197e51af46406516929009ad82eb5d",
-  "publishedAt": "2026-11-05T19:00:00Z"
+  "apkSizeBytes": 33572740,
+  "sha256": "b9e6e99aff8913920b97b905796397ddf978f18e3599cc72293ed9ab93bdb7a2",
+  "publishedAt": "2026-11-05T19:43:00Z"
 }

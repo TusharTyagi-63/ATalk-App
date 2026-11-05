@@ -1,12 +1,12 @@
 {
-  "versionCode": 61,
-  "versionName": "3.8.1",
-  "tagName": "v3.8.1",
-  "releaseTitle": "ATalk v3.8.1 — Classic Clean Composer Restored",
-  "releaseNotes": "• 01 Classic Clean Composer Restored: Reverted to the beloved streamlined native chat composer with zero screen clutter and full keyboard responsiveness.\n• 02 All Core Features Maintained: Zero-Trace EXIF Stripper, Anti-Screen Mirroring Sentinel, Hidden Safe encrypted vault, Video Trimmer, Expiring Invites, and Squircle Bubbles remain 100% active.",
+  "versionCode": 62,
+  "versionName": "3.9.0",
+  "tagName": "v3.9.0",
+  "releaseTitle": "ATalk v3.9.0 — Master Encrypted Chat Backups & Sensory UI Suite",
+  "releaseNotes": "• 01 Master Encrypted Chat Backups: Granular chat picking, media type & size filters, AES-256-GCM + PBKDF2 encryption, SAF document export & selective restore inspector.\n• 02 Top Mini-Capsule HUD: Dynamic island status pill for active VoIP calls, voice note playback, and file transfers.\n• 03 Inline Photo Redaction & Privacy Pixelation Brush: In-memory mosaic blur, blackout boxes, and pen markup before zero-trace EXIF stripping.\n• 04 2D Inertial Flick-to-Dismiss Media Viewer: Kinetic 2D drag tracking, angular tilt, and velocity momentum fling.\n• 05 Logarithmic Rubber-Band Overscroll: Authentic physics dampening with micro-haptic ticks.\n• 06 Spring-Zoom Peek & Pop: Long-press message focal zoom with 16dp backdrop blur and reaction shelf.\n• 07 Ambient Media Glow: Dynamic chromatic aura projection behind media bubbles via AndroidX Palette.\n• 08 Circadian Auto-Redshift: Warm obsidian amber/crimson undertone adjustment between 21:00 and 06:00.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33572740,
-  "sha256": "b9e6e99aff8913920b97b905796397ddf978f18e3599cc72293ed9ab93bdb7a2",
-  "publishedAt": "2026-11-05T19:43:00Z"
+  "apkSizeBytes": 33614848,
+  "sha256": "25206a706cfa1c8fbb7fa41fb4eab60d0e678089ab681fb6f8c2199ff9ad0f01",
+  "publishedAt": "2026-11-05T20:50:00Z"
 }

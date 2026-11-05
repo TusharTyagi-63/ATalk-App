@@ -1,12 +1,12 @@
 {
-  "versionCode": 59,
-  "versionName": "3.7.0",
-  "tagName": "v3.7.0",
-  "releaseTitle": "ATalk v3.7.0 — Zero-Trace EXIF Stripper, Anti-Mirror Shield, Hidden Safe & Core UI",
-  "releaseNotes": "• 01 Zero-Trace EXIF Stripper: Automatically sanitizes GPS, camera metadata, and timestamps from shared media.\n• 02 Anti-Screen Mirroring & Recording Sentinel: Real-time detection for Wi-Fi casting, Miracast, scrcpy, and screen capture.\n• 03 Hidden Safe: In-app AES-256-GCM encrypted vault with .nomedia protection for private photos and videos.\n• 04 Scheduled Delivery & Silent Dispatch: Long-press send to dispatch silently (0 dB) or schedule delivery.\n• 05 In-App Video Trimmer: Scrub slider with 720p Optimized vs Lossless Original compression presets.\n• 06 Pinned Chats Reordering: Expanded limit up to 10 pinned chats with drag/up-down reordering.\n• 07 Anonymous Group Admin Mode: Mask identity under group name and avatar.\n• 08 Expiring Passcode Group Invites: TTL expiration, max uses limit, and optional 4-digit PIN challenge.\n• 09 Mathematical & Sensory UI: C2 Superellipse squircle bubbles, logarithmic damped spring swipe-to-reply, cryptographic vector constellations, Matrix decryption reveal, and Zero-Light Redshift palette.",
+  "versionCode": 60,
+  "versionName": "3.8.0",
+  "tagName": "v3.8.0",
+  "releaseTitle": "ATalk v3.8.0 — Antigravity Cyber-Minimalist Bento Composer (Omni-Dock)",
+  "releaseNotes": "• 01 Antigravity Cyber-Minimalist Bento Composer: Floating omni-dock with sub-pixel 0.8dp borders, squircle corners, and backdrop blur.\n• 02 Integrated Context Micro-Chips: Real-time badges for 256-GCM cipher status, disappearing burner timer TTL, anonymous admin masking, and 0 dB silent dispatch toggle.\n• 03 Clean Modular Rollback: Fully self-contained composable architecture allowing effortless switching or reversion.\n• 04 Micro-Spring Touch Dynamics: Haptic spring feedback on send, mic, and attachment triggers.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33572452,
-  "sha256": "fa278e9387f9099399b2e818030f3c55857ef081181efa4009f35bccb9981aab",
-  "publishedAt": "2026-11-02T21:50:00Z"
+  "apkSizeBytes": 33574064,
+  "sha256": "db38c1e03749227166f8ada9c50e674e61197e51af46406516929009ad82eb5d",
+  "publishedAt": "2026-11-05T19:00:00Z"
 }

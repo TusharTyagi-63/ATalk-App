@@ -1,12 +1,12 @@
 {
-  "versionCode": 62,
-  "versionName": "3.9.0",
-  "tagName": "v3.9.0",
-  "releaseTitle": "ATalk v3.9.0 — Master Encrypted Chat Backups & Sensory UI Suite",
-  "releaseNotes": "• 01 Master Encrypted Chat Backups: Granular chat picking, media type & size filters, AES-256-GCM + PBKDF2 encryption, SAF document export & selective restore inspector.\n• 02 Top Mini-Capsule HUD: Dynamic island status pill for active VoIP calls, voice note playback, and file transfers.\n• 03 Inline Photo Redaction & Privacy Pixelation Brush: In-memory mosaic blur, blackout boxes, and pen markup before zero-trace EXIF stripping.\n• 04 2D Inertial Flick-to-Dismiss Media Viewer: Kinetic 2D drag tracking, angular tilt, and velocity momentum fling.\n• 05 Logarithmic Rubber-Band Overscroll: Authentic physics dampening with micro-haptic ticks.\n• 06 Spring-Zoom Peek & Pop: Long-press message focal zoom with 16dp backdrop blur and reaction shelf.\n• 07 Ambient Media Glow: Dynamic chromatic aura projection behind media bubbles via AndroidX Palette.\n• 08 Circadian Auto-Redshift: Warm obsidian amber/crimson undertone adjustment between 21:00 and 06:00.",
+  "versionCode": 63,
+  "versionName": "3.10.0",
+  "tagName": "v3.10.0",
+  "releaseTitle": "ATalk v3.10.0 — Unified Real-Time Structural Component Synchronization Suite",
+  "releaseNotes": "• 01 Unified Calling & Voice Audio Hub: Live sync between MiniCapsule HUD, ActiveCallScreen, and voice notes via CallStateManager & GlobalAudioPlaybackCoordinator enforcing strict single-track playback.\n• 02 Conversation State Hub: Centralized reactive bus for pinned order (1st..10th preserved), muted conversations, and disappearing message timers across all sheets, overflow menus, and room views.\n• 03 Starred Message State Sync: Real-time reactive StateFlow across chat bubbles, context actions, and starred message browser.\n• 04 Encrypted Safe Media Catalog: Live reactive flow updates the safe catalog instantly when items are added, deleted, or decrypted.\n• 05 Contact Nicknames & Identity Bus: Real-time propagation of custom contact names and edits across room headers, conversation list items, and contacts directory.\n• 06 Chat Backups & Restore Invalidation Bus: Frame-0 zero-flicker cache invalidation listener hot-swapping restored or cleared conversations.\n• 07 Live Theme & Wallpaper Canvas Reactivity: Real-time state flows propagate pattern selection and doodle opacity live behind the modal sheet.\n• 08 Multi-Select Contextual BackHandler: Hardware and gesture back interception cleanly dismisses multi-selection state without accidental screen exits.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33614848,
-  "sha256": "25206a706cfa1c8fbb7fa41fb4eab60d0e678089ab681fb6f8c2199ff9ad0f01",
-  "publishedAt": "2026-11-05T20:50:00Z"
+  "apkSizeBytes": 33621388,
+  "sha256": "5f94debc4472e507bb8d252d2a0c43a8c38103e492cfedc16f870179ac6bbaae",
+  "publishedAt": "2026-11-06T18:14:00Z"
 }

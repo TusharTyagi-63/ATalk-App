@@ -1,12 +1,12 @@
 {
-  "versionCode": 63,
-  "versionName": "3.10.0",
-  "tagName": "v3.10.0",
-  "releaseTitle": "ATalk v3.10.0 — Unified Real-Time Structural Component Synchronization Suite",
-  "releaseNotes": "• 01 Unified Calling & Voice Audio Hub: Live sync between MiniCapsule HUD, ActiveCallScreen, and voice notes via CallStateManager & GlobalAudioPlaybackCoordinator enforcing strict single-track playback.\n• 02 Conversation State Hub: Centralized reactive bus for pinned order (1st..10th preserved), muted conversations, and disappearing message timers across all sheets, overflow menus, and room views.\n• 03 Starred Message State Sync: Real-time reactive StateFlow across chat bubbles, context actions, and starred message browser.\n• 04 Encrypted Safe Media Catalog: Live reactive flow updates the safe catalog instantly when items are added, deleted, or decrypted.\n• 05 Contact Nicknames & Identity Bus: Real-time propagation of custom contact names and edits across room headers, conversation list items, and contacts directory.\n• 06 Chat Backups & Restore Invalidation Bus: Frame-0 zero-flicker cache invalidation listener hot-swapping restored or cleared conversations.\n• 07 Live Theme & Wallpaper Canvas Reactivity: Real-time state flows propagate pattern selection and doodle opacity live behind the modal sheet.\n• 08 Multi-Select Contextual BackHandler: Hardware and gesture back interception cleanly dismisses multi-selection state without accidental screen exits.",
+  "versionCode": 64,
+  "versionName": "3.10.1",
+  "tagName": "v3.10.1",
+  "releaseTitle": "ATalk v3.10.1 — Ultra-Premium Glassmorphism & Bento Vault Backup Studio",
+  "releaseNotes": "• 01 Ultra-Premium Glassmorphism Architecture: Multi-layer directional specular gradient refractions, bimodal light rims, sub-pixel inner bevels, and chromatic caustic ambient drop shadows.\n• 02 Bento-Grid Vault Backup Studio: Complete overhaul of the chat backup UI into tactile Bento cards, eliminating raw numbered form styling.\n• 03 Password Lockout Typo Safeguards: Interactive password visibility eye toggles and instant confirmation match verification.\n• 04 Real-time Live Archive Estimator: Dynamic live calculation of selected chats, message count, and media footprint.\n• 05 Frosted Glass Chat Picker: Full-height glass studio with instant conversation search and contact avatars.\n• 06 Frosted Glass Restore Console: Decryption console with password visibility, manifest overview chips, and animated recovery progress.\n• 07 Navigation Drawer Refinement: 'Storage & Data' routes directly to dedicated Storage & Cache Management; removed the redundant bottom 'Lock Vault' button.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33621388,
-  "sha256": "5f94debc4472e507bb8d252d2a0c43a8c38103e492cfedc16f870179ac6bbaae",
-  "publishedAt": "2026-11-06T18:14:00Z"
+  "apkSizeBytes": 33637880,
+  "sha256": "a943c4e37062524e651da8fa4b7c9cb456dc03f0fe0113503c3c391f19aaed5c",
+  "publishedAt": "2026-11-06T21:40:00Z"
 }

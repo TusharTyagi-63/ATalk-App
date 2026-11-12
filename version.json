@@ -1,12 +1,12 @@
 {
-  "versionCode": 68,
-  "versionName": "3.11.0",
-  "tagName": "v3.11.0",
-  "releaseTitle": "ATalk v3.11.0 — Signature Visual Identity & Tactical Architecture",
-  "releaseNotes": "• 01 Signature Visual Identity: 8 new iconic & AGSL wallpapers (Neural Delta, Depth Matrix, Cipher Rain, Quantum Waves, Biometric Flow, Sovereign Orbit, Encrypted Plasma, Holographic Prism) reflecting ATalk's characteristic security and cyberpunk brand identity.\n• 02 Wallpaper & Theme Studio Overhaul: 3 categorized tiers (Signature, AGSL Shader, Classic) with live animated miniature preview cards, real-time animation tempo slider (0.5x to 2.0x), and global atmospheric chat feed rendering.\n• 03 Tactical Chat Folders: All, Direct, Unread, and Pinned tabs with dynamic live badge counts on ChatListScreen.\n• 04 Granular Read Receipt Privacy: Complete control over read receipts via VaultManager and PrivacySettingsScreen for incognito reading without double blue checkmarks.\n• 05 Cryptographic SHA-256 Backup Verification: Embedded payload hashes for tamper-proof backups and verified integrity badges in BackupRestoreDialog.",
+  "versionCode": 69,
+  "versionName": "3.11.1",
+  "tagName": "v3.11.1",
+  "releaseTitle": "ATalk v3.11.1 — Telegram Tap Context Menu, Edge-to-Edge Canvas & Sleek Navigation",
+  "releaseNotes": "• 01 Telegram-Style Message Tap Context Menu: Instant message tap brings up horizontal reaction pill (❤️, 🔥, 🤯, 😂, 💋, 👍, ⌄) and an attached compact action menu (Reply, Pin, Copy Text, Forward, Delete, Report, Select, Save to Saved Messages, Save to Hidden Safe).\n• 02 Edge-to-Edge Full Wallpaper Canvas: Completely removed top/bottom black borders on both Chat List and Chat Room screens, rendering the glowing signature AGSL wallpapers continuously across the entire display.\n• 03 Lengthened Command Dock: Upgraded the bottom navigation bar to span 92% screen width with balanced equal-weight tabs (Chats, Status, Calls) and micro-haptic switches.\n• 04 Sleek Navigation Drawer Overhaul: Replaced isolated boxy cards with an authentic luxury drawer layout, rich gradient profile header with live E2EE keystore status, unified grouped list tiles with soft tinted squircle icon badges, and quick panic lock.\n• 05 Settings Consolidation & Live Wallpaper Studio: Harmonized notification previews and incognito masking, added Covert Notification Disguise personas to Stealth settings, and integrated the live AGSL Wallpaper Studio directly into Appearance settings.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33663976,
-  "sha256": "2f63f3294e37f36ee87cec005f612bc0138f52a247a95dc2314e0bfb5d5dadde",
-  "publishedAt": "2026-11-12T14:21:00Z"
+  "apkSizeBytes": 33670452,
+  "sha256": "b66264da887aaeeaae7d24ce15784db9cfbb0abcbd65abab384d4f2c2123d119",
+  "publishedAt": "2026-11-12T16:26:00Z"
 }

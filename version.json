@@ -1,12 +1,12 @@
 {
-  "versionCode": 69,
-  "versionName": "3.11.1",
-  "tagName": "v3.11.1",
-  "releaseTitle": "ATalk v3.11.1 — Telegram Tap Context Menu, Edge-to-Edge Canvas & Sleek Navigation",
-  "releaseNotes": "• 01 Telegram-Style Message Tap Context Menu: Instant message tap brings up horizontal reaction pill (❤️, 🔥, 🤯, 😂, 💋, 👍, ⌄) and an attached compact action menu (Reply, Pin, Copy Text, Forward, Delete, Report, Select, Save to Saved Messages, Save to Hidden Safe).\n• 02 Edge-to-Edge Full Wallpaper Canvas: Completely removed top/bottom black borders on both Chat List and Chat Room screens, rendering the glowing signature AGSL wallpapers continuously across the entire display.\n• 03 Lengthened Command Dock: Upgraded the bottom navigation bar to span 92% screen width with balanced equal-weight tabs (Chats, Status, Calls) and micro-haptic switches.\n• 04 Sleek Navigation Drawer Overhaul: Replaced isolated boxy cards with an authentic luxury drawer layout, rich gradient profile header with live E2EE keystore status, unified grouped list tiles with soft tinted squircle icon badges, and quick panic lock.\n• 05 Settings Consolidation & Live Wallpaper Studio: Harmonized notification previews and incognito masking, added Covert Notification Disguise personas to Stealth settings, and integrated the live AGSL Wallpaper Studio directly into Appearance settings.",
+  "versionCode": 70,
+  "versionName": "3.11.2",
+  "tagName": "v3.11.2",
+  "releaseTitle": "ATalk v3.11.2 — Clean Minimalist Sidebar, WhatsApp M3 Bottom Dock, Edge-to-Edge Wallpaper & Unified Themes",
+  "releaseNotes": "• 01 Clean Minimalist Sidebar: Removed the decoy lock button, simplified version text to clean 'ATalk v3.11.2', removed hardware chips and bloated subtitles, creating an authentic Telegram-grade drawer.\n• 02 WhatsApp Material 3 Bottom Navigation: Full-length floating dock across Chats, Status, and Calls with active pill indicators, consistent labels, dynamic unread badge, and tactile haptics.\n• 03 Genuine Chat List: Removed synthetic 'Saved Messages' row from the main chats list (readily accessible via drawer and search).\n• 04 Unified Theme & Wallpaper Engine: Consolidated Appearance settings and in-chat Theme & Wallpaper studio into a single synchronized engine, removing redundant pickers, obsolete dialogs, and jargon.\n• 05 Full Edge-to-Edge Wallpaper: Completely eliminated black top and bottom bands across all screens, allowing signature AGSL wallpapers to flow continuously from status bar to navigation dock.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33670452,
-  "sha256": "b66264da887aaeeaae7d24ce15784db9cfbb0abcbd65abab384d4f2c2123d119",
-  "publishedAt": "2026-11-12T16:26:00Z"
+  "apkSizeBytes": 33668632,
+  "sha256": "d2e4121f267f708447d307bdec61c236fc5455880b22c8a1e902eec53dff339a",
+  "publishedAt": "2026-11-12T17:28:00Z"
 }

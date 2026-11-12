@@ -1,12 +1,12 @@
 {
-  "versionCode": 66,
-  "versionName": "3.10.3",
-  "tagName": "v3.10.3",
-  "releaseTitle": "ATalk v3.10.3 — Zero-Friction Keyboard Persistence & 100% Platform Integration",
-  "releaseNotes": "• 01 Zero-Friction Keyboard Persistence: Tapping on any message bubble or the top-right three-dot menu no longer dismisses the software keyboard. The Input Method Editor (IME) remains uninterrupted with full typing continuity.\n• 02 Window Focus Architecture: Message context menu migrated to non-focusable window popup with dedicated BackHandler gestures and adaptive vertical scroll for compact viewports.\n• 03 100% Design Platform Integration: Khroma AI neural color palettes & duotones, Haikei generative Delaunay triangulation & sine waves, Fffuel 3D isometric matrix & particle bursts, Huemint WCAG contrast compliance, and RealtimeColors 60-30-10 UI harmony.\n• 04 AGSL Optical Refraction & Tactical Scanlines: Hardware-accelerated Snell's law chromatic dispersion and CRT phosphor scanlines.\n• 05 Multi-Tier Sensory Haptics: Logarithmic overscroll stretch ticks, crisp context menu pop vibrations, and encryption seal confirmations.",
+  "versionCode": 67,
+  "versionName": "3.10.4",
+  "tagName": "v3.10.4",
+  "releaseTitle": "ATalk v3.10.4 — Telegram UI/UX & Sensory Ecosystem Upgrades",
+  "releaseNotes": "• 01 Telegram-Grade Delivery Status Engine: Strict SENT (single grey check) on weak network/server acceptance, verified DELIVERED (double grey check) on peer receipt, and READ (double blue check) tied strictly to last_read_at watermarks.\n• 02 In-App 3-Column Media Picker: High-performance bottom sheet loading camera roll media directly via MediaStore with live camera tile, numbered circular selection badges (1, 2, 3), HD quality toggle, and fallback file manager access.\n• 03 Telegram 2D Matrix Reaction Grid & Unboxed Badges: Instant access to top 28 emojis without horizontal scrolling friction, coupled with unboxed inline reaction counters nestled directly beside timestamps.\n• 04 Theme & Wallpaper Studio Persistence: Complete persistent storage of custom themes (OLED Midnight, Polar, Emerald, Obsidian, Monokai Cyber, Redshift) and procedural wallpapers across sessions via encrypted VaultManager.\n• 05 Notification & Message Sound Studio: Customizable acoustic profiles (Aurora, Crystal Droplet, Cyber Synth, Minimalist Pop) with in-app live audio preview and dynamic Android notification channel binding.\n• 06 Kinetic Lightbox & Frosted Acrylic Haze: Fluid pinch-to-zoom and double-tap gestures powered by Saket Telephoto, accompanied by Chris Banes Haze progressive frosted glass acrylic backdrop blurs.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33643048,
-  "sha256": "5b051115c44d5adc4af90d959eb42b2b036d67bf3283ccec6c15eb193a83e25f",
-  "publishedAt": "2026-11-12T07:05:00Z"
+  "apkSizeBytes": 33650064,
+  "sha256": "41004d0bbb9d9c69367e5ee3d47d5973068f709355624528aa8457fd9ca3e79b",
+  "publishedAt": "2026-11-12T09:26:00Z"
 }

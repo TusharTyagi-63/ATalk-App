@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v3.10.4-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v3.11.0-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-32.1%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.10.4 (Latest)` | 32.1 MB | `41004d0bbb9d9c69367e5ee3d47d5973068f709355624528aa8457fd9ca3e79b` | Milestone 3.10.4: Telegram In-App Media Picker with 3-column camera roll grid & status fix, 2D Matrix Reaction Grid (28 emojis), unboxed reactions at timestamp, delivery status state machine bugfix (accurate SENT vs READ via watermark), persistent Theme & Wallpaper Studio, Notification Sound Studio with live audio previews & dynamic channels, Telephoto kinetic zoomable lightbox, and Haze real-time frosted glass acrylic blur. |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.11.0 (Latest)` | 32.1 MB | `2f63f3294e37f36ee87cec005f612bc0138f52a247a95dc2314e0bfb5d5dadde` | Milestone 3.11.0: Signature Visual Identity (8 new iconic & AGSL wallpapers), Studio live preview cards & animation tempo slider (0.5x to 2.0x), atmospheric global chat list background, Tactical Chat Folders (All, Direct, Unread, Pinned with live badge counts), Granular Read Receipt Privacy control, and SHA-256 Cryptographic Backup Verification. |
+| **[ATalk-v3.11.0.apk](ATalk-v3.11.0.apk)** | `v3.11.0` | 32.1 MB | `2f63f3294e37f36ee87cec005f612bc0138f52a247a95dc2314e0bfb5d5dadde` | Milestone 3.11.0: Signature Visual Identity, Studio live preview cards & tempo slider, atmospheric chat list background, Tactical Chat Folders with badge counts, Granular Read Receipt Privacy control, and SHA-256 Cryptographic Backup Verification. |
 | **[ATalk-v3.10.4.apk](ATalk-v3.10.4.apk)** | `v3.10.4` | 32.1 MB | `41004d0bbb9d9c69367e5ee3d47d5973068f709355624528aa8457fd9ca3e79b` | Milestone 3.10.4: Telegram In-App Media Picker, 2D Matrix Reaction Grid, unboxed reactions at timestamp, delivery status engine overhaul, Theme/Wallpaper persistence, Sound Studio with live previews, Telephoto kinetic zoomable lightbox, and Haze frosted blur. |
 | **[ATalk-v3.4.9.apk](ATalk-v3.4.9.apk)** | `v3.4.9` | 31.9 MB | `7D3EA8182C3D831C9C04046ACEF63F64F0C40237C323A3358346BB3485A2975D` | Milestone 3.4.9: Telegram In-App Media Picker, 2D Matrix Reaction Grid, unboxed reactions at timestamp, delivery status engine overhaul, Theme/Wallpaper persistence, Sound Studio with live previews, Telephoto kinetic zoomable lightbox, and Haze frosted blur. |
 | **[ATalk-v3.4.8.apk](ATalk-v3.4.8.apk)** | `v3.4.8` | 22.4 MB | `0081FC62751D1A15119FE507E66671BA18CCA5B49950C040FE977BD2A768A344` | Milestone 3.4.8: Anchored popup next to message bubble, 100% Notes Cover notification disguise, clean header, interactive reaction pills, double-tap quick react with starburst particles, floating scroll-to-bottom button with unread counter, and continuous drag-select. |

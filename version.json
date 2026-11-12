@@ -1,12 +1,12 @@
 {
-  "versionCode": 65,
-  "versionName": "3.10.2",
-  "tagName": "v3.10.2",
-  "releaseTitle": "ATalk v3.10.2 — Khroma AI Themes, Procedural Wallpapers & Tactical Optics",
-  "releaseNotes": "• 01 Four New Khroma AI Themes: Neon Emerald, Arctic Cyan, Synthwave Violet, and Golden Obsidian with calibrated OLED black levels and WCAG AAA/AA contrast compliance.\n• 02 Dynamic Theme Carousel: Studio sheet upgraded to an interactive horizontal carousel featuring all 10 selectable themes.\n• 03 Six New Mathematical Procedural Wallpapers: Expanded to 10 total wallpapers, adding Aurora Caustic (gradient mesh), Quantum Waves (sinusoids), Tactical Hex Matrix (honeycomb), Bento Grid (architectural crosshairs), Delaunay Mesh (Haikei low-poly triangulation), and Isometric Cyber (Fffuel 3D matrix).\n• 04 AGSL Optical Refraction & Tactical Scanlines: Hardware-accelerated Snell's law chromatic dispersion and night-vision phosphor scanlines on Android 13+.\n• 05 Multi-Stage Tactile Overscroll Haptics: Progressive micro-tick resistance pulses during logarithmic rubber-band travel and rebound restitution thud.",
+  "versionCode": 66,
+  "versionName": "3.10.3",
+  "tagName": "v3.10.3",
+  "releaseTitle": "ATalk v3.10.3 — Zero-Friction Keyboard Persistence & 100% Platform Integration",
+  "releaseNotes": "• 01 Zero-Friction Keyboard Persistence: Tapping on any message bubble or the top-right three-dot menu no longer dismisses the software keyboard. The Input Method Editor (IME) remains uninterrupted with full typing continuity.\n• 02 Window Focus Architecture: Message context menu migrated to non-focusable window popup with dedicated BackHandler gestures and adaptive vertical scroll for compact viewports.\n• 03 100% Design Platform Integration: Khroma AI neural color palettes & duotones, Haikei generative Delaunay triangulation & sine waves, Fffuel 3D isometric matrix & particle bursts, Huemint WCAG contrast compliance, and RealtimeColors 60-30-10 UI harmony.\n• 04 AGSL Optical Refraction & Tactical Scanlines: Hardware-accelerated Snell's law chromatic dispersion and CRT phosphor scanlines.\n• 05 Multi-Tier Sensory Haptics: Logarithmic overscroll stretch ticks, crisp context menu pop vibrations, and encryption seal confirmations.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33642104,
-  "sha256": "fc02bbc9b2f3b74527e15a1abc333399bfc9c85580f143e52dc7574c9df9f92a",
-  "publishedAt": "2026-11-12T06:05:00Z"
+  "apkSizeBytes": 33643048,
+  "sha256": "5b051115c44d5adc4af90d959eb42b2b036d67bf3283ccec6c15eb193a83e25f",
+  "publishedAt": "2026-11-12T07:05:00Z"
 }

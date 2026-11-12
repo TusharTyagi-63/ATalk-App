@@ -1,12 +1,12 @@
 {
-  "versionCode": 64,
-  "versionName": "3.10.1",
-  "tagName": "v3.10.1",
-  "releaseTitle": "ATalk v3.10.1 — Ultra-Premium Glassmorphism & Bento Vault Backup Studio",
-  "releaseNotes": "• 01 Ultra-Premium Glassmorphism Architecture: Multi-layer directional specular gradient refractions, bimodal light rims, sub-pixel inner bevels, and chromatic caustic ambient drop shadows.\n• 02 Bento-Grid Vault Backup Studio: Complete overhaul of the chat backup UI into tactile Bento cards, eliminating raw numbered form styling.\n• 03 Password Lockout Typo Safeguards: Interactive password visibility eye toggles and instant confirmation match verification.\n• 04 Real-time Live Archive Estimator: Dynamic live calculation of selected chats, message count, and media footprint.\n• 05 Frosted Glass Chat Picker: Full-height glass studio with instant conversation search and contact avatars.\n• 06 Frosted Glass Restore Console: Decryption console with password visibility, manifest overview chips, and animated recovery progress.\n• 07 Navigation Drawer Refinement: 'Storage & Data' routes directly to dedicated Storage & Cache Management; removed the redundant bottom 'Lock Vault' button.",
+  "versionCode": 65,
+  "versionName": "3.10.2",
+  "tagName": "v3.10.2",
+  "releaseTitle": "ATalk v3.10.2 — Khroma AI Themes, Procedural Wallpapers & Tactical Optics",
+  "releaseNotes": "• 01 Four New Khroma AI Themes: Neon Emerald, Arctic Cyan, Synthwave Violet, and Golden Obsidian with calibrated OLED black levels and WCAG AAA/AA contrast compliance.\n• 02 Dynamic Theme Carousel: Studio sheet upgraded to an interactive horizontal carousel featuring all 10 selectable themes.\n• 03 Six New Mathematical Procedural Wallpapers: Expanded to 10 total wallpapers, adding Aurora Caustic (gradient mesh), Quantum Waves (sinusoids), Tactical Hex Matrix (honeycomb), Bento Grid (architectural crosshairs), Delaunay Mesh (Haikei low-poly triangulation), and Isometric Cyber (Fffuel 3D matrix).\n• 04 AGSL Optical Refraction & Tactical Scanlines: Hardware-accelerated Snell's law chromatic dispersion and night-vision phosphor scanlines on Android 13+.\n• 05 Multi-Stage Tactile Overscroll Haptics: Progressive micro-tick resistance pulses during logarithmic rubber-band travel and rebound restitution thud.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33637880,
-  "sha256": "a943c4e37062524e651da8fa4b7c9cb456dc03f0fe0113503c3c391f19aaed5c",
-  "publishedAt": "2026-11-06T21:40:00Z"
+  "apkSizeBytes": 33642104,
+  "sha256": "fc02bbc9b2f3b74527e15a1abc333399bfc9c85580f143e52dc7574c9df9f92a",
+  "publishedAt": "2026-11-12T06:05:00Z"
 }

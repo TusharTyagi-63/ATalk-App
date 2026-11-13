@@ -1,12 +1,12 @@
 {
-  "versionCode": 71,
-  "versionName": "3.11.3",
-  "tagName": "v3.11.3",
-  "releaseTitle": "ATalk v3.11.3 — Dedicated Profile Screen & Bottom Tab, 10 Distinct Theme Vibes & Hand-Crafted Classic Wallpapers",
-  "releaseNotes": "• 01 Dedicated Profile Screen & Rightmost Bottom Dock Tab: Added dedicated Profile tab [Chats, Status, Calls, Profile] at the rightmost position. All profile management (avatar editor, name, handle, bio, linked phone & email, QR code sharing, cryptographic fingerprint) is now exclusively located in the dedicated Profile screen.\n• 02 Settings Isolated to System Preferences & Security: Completely removed profile cards and profile editing sheets from Settings, making Settings purely focused on app preferences, themes, security, backups, and storage.\n• 03 10 Distinct Theme Palettes & Vibes: Replaced overlapping dark/purple variants with 10 completely unique color temperatures and vibes: OLED Midnight, Kyoto Forest, Sahara Terracotta, Nordic Glacier, Cyberpunk Neon, Rose Twilight, Carbon Noir Titanium, Imperial Gold, Crimson Dynasty, and Deep Cobalt.\n• 04 Hand-Crafted Classic Wallpapers: Completely replaced simple math grids and bare sine waves with 8 rich, detailed vector illustrative patterns: Telegram-style Messenger Doodles, Japanese Ukiyo-e Wave Crests, Botanical Monstera & Fern Canopy, Celestial Astrolabe & Lunar Horology, Art Deco Gatsby Fan Arches, Antique Nautical Charts, Steampunk Clockwork Gears, and Metropolis Architectural Blueprints.\n• 05 Full Edge-to-Edge Continuity: Maintained full immersive wallpaper rendering and synchronized styling across all root tabs and conversation rooms.",
+  "versionCode": 72,
+  "versionName": "3.11.4",
+  "tagName": "v3.11.4",
+  "releaseTitle": "ATalk v3.11.4 — Real Multi-Device Session Registry & Remote Kill Switch, Burn-on-Read Ephemeral Timer, Silent Messages & Scheduled Send",
+  "releaseNotes": "• 01 Telegram-Style Bottom Capsule Dock Reversion: Restored the floating capsule dock with dynamic horizontal active pill expansion [Icon + Label] for selected tabs, sleek minimalist centered icons for unselected tabs, and retained the 4-tab layout with dedicated Profile at the rightmost position.\n• 02 Real Multi-Device Session Registry & Remote Kill Switch: Powered by a live Supabase database table (user_sessions). Active Devices & Sessions screen displays all active login devices with hardware model, OS version, app build, and last active timestamp. Allows one-tap remote revocation of any device or terminating all other sessions. Active devices enforce an automatic 20-second heartbeat that instantly triggers a cryptographic RAM key wipe and vault lockdown if their session is terminated remotely.\n• 03 Burn-on-Read Ephemeral Timers (5s, 30s, 1m, 1h, 24h): Ephemeral self-destruct timers start countdown strictly after the recipient opens/views the message in chat. Live fire badges display real-time remaining countdowns, disintegrate with smooth particle dissolves on expiration, and permanently purge the message from local Room cache and remote Supabase storage.\n• 04 Silent Messages (Zero Sound & Zero Vibration): Long-press the Send button to dispatch messages silently. Silent messages are flagged with a muted bell indicator and delivered to recipient devices with complete audio suppression and zero vibration.\n• 05 Scheduled Send: Long-press the Send button to schedule delivery for 15 minutes, 1 hour, tomorrow morning, when recipient comes online, or custom date & time via native date/time pickers.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33684688,
-  "sha256": "84d4f857faab6049fc09eb1ab9e46607240752644e374fd0e1e474315e66f9a2",
-  "publishedAt": "2026-11-13T06:50:00Z"
+  "apkSizeBytes": 33692296,
+  "sha256": "b5f20aada38f1f62ae2af42e408c151555652f1bfe2373f9bf8209838c1d8f6f",
+  "publishedAt": "2026-11-13T10:00:00Z"
 }

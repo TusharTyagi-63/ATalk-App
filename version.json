@@ -1,12 +1,12 @@
 {
-  "versionCode": 70,
-  "versionName": "3.11.2",
-  "tagName": "v3.11.2",
-  "releaseTitle": "ATalk v3.11.2 — Clean Minimalist Sidebar, WhatsApp M3 Bottom Dock, Edge-to-Edge Wallpaper & Unified Themes",
-  "releaseNotes": "• 01 Clean Minimalist Sidebar: Removed the decoy lock button, simplified version text to clean 'ATalk v3.11.2', removed hardware chips and bloated subtitles, creating an authentic Telegram-grade drawer.\n• 02 WhatsApp Material 3 Bottom Navigation: Full-length floating dock across Chats, Status, and Calls with active pill indicators, consistent labels, dynamic unread badge, and tactile haptics.\n• 03 Genuine Chat List: Removed synthetic 'Saved Messages' row from the main chats list (readily accessible via drawer and search).\n• 04 Unified Theme & Wallpaper Engine: Consolidated Appearance settings and in-chat Theme & Wallpaper studio into a single synchronized engine, removing redundant pickers, obsolete dialogs, and jargon.\n• 05 Full Edge-to-Edge Wallpaper: Completely eliminated black top and bottom bands across all screens, allowing signature AGSL wallpapers to flow continuously from status bar to navigation dock.",
+  "versionCode": 71,
+  "versionName": "3.11.3",
+  "tagName": "v3.11.3",
+  "releaseTitle": "ATalk v3.11.3 — Dedicated Profile Screen & Bottom Tab, 10 Distinct Theme Vibes & Hand-Crafted Classic Wallpapers",
+  "releaseNotes": "• 01 Dedicated Profile Screen & Rightmost Bottom Dock Tab: Added dedicated Profile tab [Chats, Status, Calls, Profile] at the rightmost position. All profile management (avatar editor, name, handle, bio, linked phone & email, QR code sharing, cryptographic fingerprint) is now exclusively located in the dedicated Profile screen.\n• 02 Settings Isolated to System Preferences & Security: Completely removed profile cards and profile editing sheets from Settings, making Settings purely focused on app preferences, themes, security, backups, and storage.\n• 03 10 Distinct Theme Palettes & Vibes: Replaced overlapping dark/purple variants with 10 completely unique color temperatures and vibes: OLED Midnight, Kyoto Forest, Sahara Terracotta, Nordic Glacier, Cyberpunk Neon, Rose Twilight, Carbon Noir Titanium, Imperial Gold, Crimson Dynasty, and Deep Cobalt.\n• 04 Hand-Crafted Classic Wallpapers: Completely replaced simple math grids and bare sine waves with 8 rich, detailed vector illustrative patterns: Telegram-style Messenger Doodles, Japanese Ukiyo-e Wave Crests, Botanical Monstera & Fern Canopy, Celestial Astrolabe & Lunar Horology, Art Deco Gatsby Fan Arches, Antique Nautical Charts, Steampunk Clockwork Gears, and Metropolis Architectural Blueprints.\n• 05 Full Edge-to-Edge Continuity: Maintained full immersive wallpaper rendering and synchronized styling across all root tabs and conversation rooms.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 33668632,
-  "sha256": "d2e4121f267f708447d307bdec61c236fc5455880b22c8a1e902eec53dff339a",
-  "publishedAt": "2026-11-12T17:28:00Z"
+  "apkSizeBytes": 33684688,
+  "sha256": "84d4f857faab6049fc09eb1ab9e46607240752644e374fd0e1e474315e66f9a2",
+  "publishedAt": "2026-11-13T06:50:00Z"
 }

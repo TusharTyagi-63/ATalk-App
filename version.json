@@ -1,12 +1,12 @@
 {
-  "versionCode": 75,
-  "versionName": "3.14.0",
-  "tagName": "v3.14.0",
-  "releaseTitle": "ATalk v3.14.0 — Granular User-Controlled Notification Hub, Master State Control (Active/Mute/Stop), Live Lock Screen Simulator & Custom Decoy Engine",
-  "releaseNotes": "• 01 Granular Master Notification State Control: Complete 3-state control giving users total sovereignty over alert delivery: Active (Continue normal alerts), Mute (with quick-select duration chips for 1h, 8h, 24h, and Indefinite with real-time remaining countdown), and Stop (completely halt all audio, vibrations, and visual banners).\n• 02 Multi-Tier Display Content Granularity: Choose exactly what information appears on lock screens and system trays: Full Preview (Sender name, avatar, and message snippet), Sender Only (Sender name with 'New message'), Incognito (Total anonymity: 'ATalk Notification' and 'New encrypted message'), Stealth Camouflage Presets (Notes Cloud Sync, Android System & Battery, Calendar, Courier Tracking, Stealth Haptic Pulse), and Custom Disguise Template.\n• 03 User-Defined Custom Disguise Engine: Users can now write their own custom Notification Title and Body (e.g. 'Fitness Tracker: Daily step goal completed') to completely camouflage sensitive incoming messages as innocent apps of their choice.\n• 04 Real-Time Interactive Lock Screen Simulator & Instant Test Dispatch: A live preview canvas dynamically models lock screen banners in real time as options are changed, paired with a 'Send Test Notification' button that fires an immediate test alert to the Android notification shade to verify tone, cadence, and visual presentation.\n• 05 Sound & Acoustic Studio with Waveform Previews: Select custom chimes (ATalk Aurora, Crystal Droplet, Cyber Synth, Minimalist Pop, System Default, and Silent) with interactive play/stop audio auditioning.\n• 06 Tactile Rhythm & Vibration Studio: Choose from Default Pulse, Quick Tick (80ms), Long Alert (500ms), Double Pulse, Heartbeat Rhythm, or None, with immediate motor testing on tap.\n• 07 Presentation & Delivery Controls: Fine-grained toggles for Heads-Up floating popups on screen, In-App dynamic floating cyber pill, Notify Once Until Read alert damping, and multi-color LED indicator light (Cyan, Emerald, Violet, Amber, Off).",
+  "versionCode": 76,
+  "versionName": "3.14.1",
+  "tagName": "v3.14.1",
+  "releaseTitle": "ATalk v3.14.1 — Instant Multi-Device Tick Transitions (<30ms) & Universal Plain-Language UI Experience",
+  "releaseNotes": "• 01 Instant Multi-Device Delivery Transitions: Real-time peer-to-peer WebSocket broadcast protocol ensures single tick (✓), double grey tick (✓✓), and double blue tick (✓✓) status updates occur with sub-30ms latency across devices rather than relying on delayed polling cycles.\n• 02 Universal Blue Tick Tinting: Standardized the read receipt double tick tint to Electric Sky Blue (#38BDF8) across all dark and colored UI themes, guaranteeing instant recognition regardless of active theme or custom palette.\n• 03 Immediate Background Delivery Confirmation: Connected background notification delivery directly to websocket delivery broadcasting so senders receive an immediate double grey tick even when the recipient's app is minimized.\n• 04 Comprehensive Plain-Language Simplification: Replaced confusing technical jargon across the entire application with simple, intuitive, everyday language in Privacy Settings, Stealth Disguise, Account Security, Profile, and Screenshot Controls.\n• 05 Reconciled Status Watermarking: Messages received and sent are strictly synced against peer read watermarks so that offline message history displays proper delivered and read checkmarks upon reconnection.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37361758,
-  "sha256": "20fa639bfd223e99bb155341a7497f2728f5b59d4bd6144ed62ff3787ad68a5f",
-  "publishedAt": "2026-11-15T15:00:00Z"
+  "apkSizeBytes": 37361154,
+  "sha256": "b3ff85286e434e848bbc81ef31cd181d7c2e033473036d50348bf331180372b6",
+  "publishedAt": "2026-11-15T15:50:00Z"
 }

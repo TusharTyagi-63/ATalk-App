@@ -1,12 +1,12 @@
 {
-  "versionCode": 76,
-  "versionName": "3.14.1",
-  "tagName": "v3.14.1",
-  "releaseTitle": "ATalk v3.14.1 — Instant Multi-Device Tick Transitions (<30ms) & Universal Plain-Language UI Experience",
-  "releaseNotes": "• 01 Instant Multi-Device Delivery Transitions: Real-time peer-to-peer WebSocket broadcast protocol ensures single tick (✓), double grey tick (✓✓), and double blue tick (✓✓) status updates occur with sub-30ms latency across devices rather than relying on delayed polling cycles.\n• 02 Universal Blue Tick Tinting: Standardized the read receipt double tick tint to Electric Sky Blue (#38BDF8) across all dark and colored UI themes, guaranteeing instant recognition regardless of active theme or custom palette.\n• 03 Immediate Background Delivery Confirmation: Connected background notification delivery directly to websocket delivery broadcasting so senders receive an immediate double grey tick even when the recipient's app is minimized.\n• 04 Comprehensive Plain-Language Simplification: Replaced confusing technical jargon across the entire application with simple, intuitive, everyday language in Privacy Settings, Stealth Disguise, Account Security, Profile, and Screenshot Controls.\n• 05 Reconciled Status Watermarking: Messages received and sent are strictly synced against peer read watermarks so that offline message history displays proper delivered and read checkmarks upon reconnection.",
+  "versionCode": 77,
+  "versionName": "3.14.2",
+  "tagName": "v3.14.2",
+  "releaseTitle": "ATalk v3.14.2 — Real-Time Background Notification Delivery & Message/Call Subdivision Controls",
+  "releaseNotes": "• 01 Instant Background Notification Delivery: Enabled persistent background push synchronization by default and eliminated burst notifications on opening Notes. Notifications now arrive in real-time (<50ms) the moment someone sends a message or calls, even while your phone is locked or screen is off.\n• 02 Message & Call Notification Subdivisions: Subdivided Notification Settings into dedicated 'Message Alerts' and 'Call Alerts' sections, providing complete granular control over message tones, vibrations, call ringtones (Gentle Chime, Phone Ringtone, Cyber Melody, Classic Bell, Silent), call vibration cadences (Continuous, Heartbeat, Double pulse, Off), and missed call alerts.\n• 03 Automatic Boot & Update Resumption: Added a lightweight system BootReceiver so background message and call alerts start automatically when your phone reboots or the app updates, without needing to open the app first.\n• 04 Screen Wake-up on Incoming Calls: Incoming calls now immediately wake up your phone's screen and display a full-screen high-priority call banner so you never miss a call.\n• 05 Plain Everyday Language: Continued plain-language refinement across all settings cards so every feature, toggle, and disguise mode is clear, simple, and self-explanatory.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37361154,
-  "sha256": "b3ff85286e434e848bbc81ef31cd181d7c2e033473036d50348bf331180372b6",
-  "publishedAt": "2026-11-15T15:50:00Z"
+  "apkSizeBytes": 37370822,
+  "sha256": "911ff48385190232a1459d4ee0e7546660fd026eff6e2fbb7cac3cc7286b93fe",
+  "publishedAt": "2026-11-15T17:42:00Z"
 }

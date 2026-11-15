@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v3.14.1-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v3.14.2-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-35.6%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.14.1 (Latest)` | 35.6 MB | `b3ff85286e434e848bbc81ef31cd181d7c2e033473036d50348bf331180372b6` | Milestone 3.14.1: Instant Multi-Device Delivery Transitions (<30ms peer-to-peer WebSocket broadcast protocol for single grey, double grey, and double blue checkmarks), Universal Electric Sky Blue Read Receipt Tint (#38BDF8), Immediate Background Notification Delivery Acknowledgement, and Universal Plain-Language UI Simplification removing technical jargon across Privacy Settings, Stealth Disguise, Account Security, Profile, and Screenshot Sentinel Controls. |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.14.2 (Latest)` | 35.6 MB | `911ff48385190232a1459d4ee0e7546660fd026eff6e2fbb7cac3cc7286b93fe` | Milestone 3.14.2: Real-time instant notification delivery (<50ms) while phone is locked or app is in background, elimination of burst notifications on opening Notes decoy, subdivided Notification Settings with dedicated 'Message Alerts' and 'Call Alerts' granular controls (ringtone auditioning, vibration rhythm testing, missed call notices, full-screen call pop-up & screen wake-up), auto-start BootReceiver on device restart, and complete everyday plain-language UI simplification. |
+| **[ATalk-v3.14.2.apk](ATalk-v3.14.2.apk)** | `v3.14.2` | 35.6 MB | `911ff48385190232a1459d4ee0e7546660fd026eff6e2fbb7cac3cc7286b93fe` | Milestone 3.14.2: Real-Time Background Notification Delivery, Zero-Burst Notes Startup, Granular Message & Call Notification Subdivisions, BootReceiver Auto-Start, Lock Screen Wakeup for Calls. |
 | **[ATalk-v3.14.1.apk](ATalk-v3.14.1.apk)** | `v3.14.1` | 35.6 MB | `b3ff85286e434e848bbc81ef31cd181d7c2e033473036d50348bf331180372b6` | Milestone 3.14.1: Sub-30ms Instant Tick State Propagation, Sky-Blue Read Receipts, Immediate Background Notification Delivery Confirmations, Full App Jargon Polish & Plain-Language Overhaul. |
 | **[ATalk-v3.14.0.apk](ATalk-v3.14.0.apk)** | `v3.14.0` | 35.6 MB | `20fa639bfd223e99bb155341a7497f2728f5b59d4bd6144ed62ff3787ad68a5f` | Milestone 3.14.0: Complete User Sovereignty Notification Overhaul, Live Preview Card, Custom Disguise Template, Mute Timers, Haptic Waveform Studio. |
 | **[ATalk-v3.13.0.apk](ATalk-v3.13.0.apk)** | `v3.13.0` | 35.6 MB | `5d2ba8192b0f37e6a29fa9fcc4eb9569882a119cb79b3ebc4e8b66457a70a09f` | Milestone 3.13.0: True ZXing QR & ML Kit Scanner, Agora 2G Low-Bandwidth Calling, 4-Button Clean Call Dock, Chat Theming Invalidation, Touch Redaction Fix, Jargon Polish. |

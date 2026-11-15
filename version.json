@@ -1,12 +1,12 @@
 {
-  "versionCode": 77,
-  "versionName": "3.14.2",
-  "tagName": "v3.14.2",
-  "releaseTitle": "ATalk v3.14.2 — Real-Time Background Notification Delivery & Message/Call Subdivision Controls",
-  "releaseNotes": "• 01 Instant Background Notification Delivery: Enabled persistent background push synchronization by default and eliminated burst notifications on opening Notes. Notifications now arrive in real-time (<50ms) the moment someone sends a message or calls, even while your phone is locked or screen is off.\n• 02 Message & Call Notification Subdivisions: Subdivided Notification Settings into dedicated 'Message Alerts' and 'Call Alerts' sections, providing complete granular control over message tones, vibrations, call ringtones (Gentle Chime, Phone Ringtone, Cyber Melody, Classic Bell, Silent), call vibration cadences (Continuous, Heartbeat, Double pulse, Off), and missed call alerts.\n• 03 Automatic Boot & Update Resumption: Added a lightweight system BootReceiver so background message and call alerts start automatically when your phone reboots or the app updates, without needing to open the app first.\n• 04 Screen Wake-up on Incoming Calls: Incoming calls now immediately wake up your phone's screen and display a full-screen high-priority call banner so you never miss a call.\n• 05 Plain Everyday Language: Continued plain-language refinement across all settings cards so every feature, toggle, and disguise mode is clear, simple, and self-explanatory.",
+  "versionCode": 78,
+  "versionName": "3.15.0",
+  "tagName": "v3.15.0",
+  "releaseTitle": "ATalk v3.15.0 — Complete UI Overhaul: Structure, Simplification & De-duplication",
+  "releaseNotes": "• 01 Comprehensive Text Simplification: Purged all developer jargon, cryptographic acronyms, and technical terms across the entire app (e.g. replaced 'E2EE' with 'End-to-end encrypted' or 'Private', 'Zeroize' with 'Clean', 'Telemetry' with 'Audio Mode', 'Vault Safe' with 'Hidden Safe', 'Cryptographic Constellation Fingerprint' with 'Security Verification Pattern').\n• 02 Eliminated Settings Redundancy & Duplicacy: Streamlined ProfileScreen to focus on identity and contact details with clean navigation shortcuts, eliminating duplicated hex keys, independent phone/email sheets, and redundant Log Out / Delete Account dialogs. Removed duplicate disguise radio pickers from StealthSettingsScreen in favor of a direct link to the full Notification Settings studio. Removed redundant notification toggles from PrivacySettingsScreen.\n• 03 Enhanced Navigation & Screen Structure: Reorganized settings hierarchies into logical, cohesive sections (Identity, App Settings, Account Security, and Sign Out). Every screen now has consistent padding, clear visual hierarchy, and intuitive grouped cards.\n• 04 Real-Time Delivery & Read Receipts: Verified and streamlined single grey tick (Sent), double grey tick (Delivered), and double cyan tick (Read) instant transitions via Supabase Realtime across chats and messages.\n• 05 Storage & Data Usage Overhaul: Cleaned up StorageUsageScreen with crystal-clear plain-language storage categories, temporary cache cleaning, and friendly retention policies ('Delete when leaving app', 'Keep forever').",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37370822,
-  "sha256": "911ff48385190232a1459d4ee0e7546660fd026eff6e2fbb7cac3cc7286b93fe",
-  "publishedAt": "2026-11-15T17:42:00Z"
+  "apkSizeBytes": 37365746,
+  "sha256": "7d22786cfbac61d222d1d9eb18ccd20970721aab2700489b522eb8c63d6bf03c",
+  "publishedAt": "2026-11-15T18:40:00Z"
 }

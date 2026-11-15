@@ -1,7 +1,7 @@
 # ATalk — Secure Mobile Communication Architecture
 > **The Ultimate Hybrid of Telegram and WhatsApp** with zero-compromise cryptographic privacy, hardened anti-forensics, strict zero-storage media policy, and ultra-fast performance on poor networks (2G/3G/lossy).
 
-[![Release](https://img.shields.io/badge/Release-v3.13.0-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
+[![Release](https://img.shields.io/badge/Release-v3.14.0-cyan?style=for-the-badge&logo=android)](https://github.com/TusharTyagi-63/ATalk-App/releases)
 [![APK Size](https://img.shields.io/badge/APK%20Size-35.6%20MB-blue?style=for-the-badge)](ATalk-latest.apk)
 [![Security](https://img.shields.io/badge/Security-Hardware%20Keystore%20GCM-green?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
 [![Zero Storage](https://img.shields.io/badge/Media%20Storage-Zero--Disk%20RAM--Only-red?style=for-the-badge)](https://github.com/TusharTyagi-63/ATalk)
@@ -12,7 +12,8 @@
 
 | File | Version | Size | Checksum (SHA-256) | Notes |
 |---|---|---|---|---|
-| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.13.0 (Latest)` | 35.6 MB | `5d2ba8192b0f37e6a29fa9fcc4eb9569882a119cb79b3ebc4e8b66457a70a09f` | Milestone 3.13.0: Comprehensive App-Wide UI/UX Polishing, True ZXing QR Code Generation & Offline ML Kit Scanner, Carrier-Grade Low-Bandwidth Agora Calling Pipeline (18kbps Opus, DTX, FEC, Dual-Stream, AI-AEC/ANS), Responsive In-Call Control Dock, Per-Chat Theme Context Invalidation, Sub-Pixel Touch Photo Redaction, System Bar Inset Fixes, and Military Jargon Purification. |
+| **[ATalk-latest.apk](ATalk-latest.apk)** | `v3.14.0 (Latest)` | 35.6 MB | `20fa639bfd223e99bb155341a7497f2728f5b59d4bd6144ed62ff3787ad68a5f` | Milestone 3.14.0: Granular User Notification Control Center, 3-State Master Delivery (Active/Continue, Mute with 1h/8h/24h/Indefinite timers, Stop), 5-Tier Display Content Granularity, User-Defined Custom Decoy Engine, Live Lock Screen Preview Simulation Canvas, Instant Test Notification Dispatcher, Sound & Acoustic Studio with Waveform Auditioning, Tactile Haptic Rhythm Studio with On-Tap Motor Tests, and High-Priority Floating Delivery Controls. |
+| **[ATalk-v3.14.0.apk](ATalk-v3.14.0.apk)** | `v3.14.0` | 35.6 MB | `20fa639bfd223e99bb155341a7497f2728f5b59d4bd6144ed62ff3787ad68a5f` | Milestone 3.14.0: Complete User Sovereignty Notification Overhaul, Live Preview Card, Custom Disguise Template, Mute Timers, Haptic Waveform Studio. |
 | **[ATalk-v3.13.0.apk](ATalk-v3.13.0.apk)** | `v3.13.0` | 35.6 MB | `5d2ba8192b0f37e6a29fa9fcc4eb9569882a119cb79b3ebc4e8b66457a70a09f` | Milestone 3.13.0: True ZXing QR & ML Kit Scanner, Agora 2G Low-Bandwidth Calling, 4-Button Clean Call Dock, Chat Theming Invalidation, Touch Redaction Fix, Jargon Polish. |
 | **[ATalk-v3.12.0.apk](ATalk-v3.12.0.apk)** | `v3.12.0` | 32.3 MB | `e586d57f72c795c613bf4c6afdb07462e5cfbea344bbd7d3343c6fe36697ba9b` | Milestone 3.12.0: 8 Master Core Upgrades — Granular Screenshot Sentinel, Per-Chat Themes, Multi-Pin Carousel, Reaction Bursts, Universal Search, Storage Studio, In-Call Screen Sharing, Live Location Radar. |
 | **[ATalk-v3.11.4.apk](ATalk-v3.11.4.apk)** | `v3.11.4` | 32.1 MB | `b5f20aada38f1f62ae2af42e408c151555652f1bfe2373f9bf8209838c1d8f6f` | Milestone 3.11.4: Telegram-Style Bottom Capsule Dock Reversion with dynamic active pill expansion, Real Multi-Device Session Registry with Remote Kill Switch via Supabase (one-tap revocation and auto-wipe listener), Burn-on-Read Ephemeral Timers (5s, 30s, 1m, 1h, 24h) with particle dissolve and remote purge, Silent Messages (zero sound & zero vibration), and Scheduled Send (15m, 1h, tomorrow, when online, and custom date/time). |

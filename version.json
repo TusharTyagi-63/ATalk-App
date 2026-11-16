@@ -1,12 +1,12 @@
 {
-  "versionCode": 83,
-  "versionName": "3.17.1",
-  "tagName": "v3.17.1",
-  "releaseTitle": "ATalk v3.17.1 — Chronological Message Sync & Input Reliability Fix",
-  "releaseNotes": "• 01 Chronological Order & Insertion Integrity: Fixed out-of-order display where delayed incoming or server-synced messages were appended at the bottom instead of ordered strictly by creation epoch timestamp.\n• 02 Viewport Position Preservation: Eliminated list clearing during message reordering, ensuring LazyColumn scroll position remains stable and never resets to months-old messages.\n• 03 Real-Time Keyboard Input Synchronization: Fixed state sync between TextFieldState and Compose text observers, ensuring send buttons activate immediately upon typing and sent messages transmit cleanly.\n• 04 Optimistic Chronological Insertion: Outgoing messages now insert immediately at their correct chronological timestamp position with smooth auto-scroll to the bottom.",
+  "versionCode": 84,
+  "versionName": "3.17.2",
+  "tagName": "v3.17.2",
+  "releaseTitle": "ATalk v3.17.2 — Clean Query Alignment & Core Architecture Stability Release",
+  "releaseNotes": "• 01 Clean Query & Database Alignment: Synchronized client message fetch routines and database functions with the clean, hardened security baseline.\n• 02 Core Architecture Stability: Reverted experimental keyboard/map overlays and unified the chat viewport on the proven, stable rendering engine.\n• 03 Full Security Hardening Retained: Maintained PBKDF2 salted PIN hashing with exponential backoff lockout, network security config blocking cleartext traffic, and isolated security credentials table.\n• 04 OTA Update Seamless Compatibility: Built with versionCode 84 to ensure automatic, zero-error in-app updates for all existing installations.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37452106,
-  "sha256": "edce8114cb0d8425010d0dd7503f865de2f6a81527536b864cd9211d404a88b2",
-  "publishedAt": "2026-11-16T11:16:00Z"
+  "apkSizeBytes": 37380226,
+  "sha256": "a366a01d03346fc5710bb609d905b9e6d0ae1baa806fe81ed6627bf225fcb1f1",
+  "publishedAt": "2026-11-16T11:36:00Z"
 }

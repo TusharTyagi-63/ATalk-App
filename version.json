@@ -1,12 +1,12 @@
 {
-  "versionCode": 82,
-  "versionName": "3.17.0",
-  "tagName": "v3.17.0",
-  "releaseTitle": "ATalk v3.17.0 — Keyboard GIF Insertion & Google Maps Location Sharing Hub",
-  "releaseNotes": "• 01 Keyboard GIF Insertion (Gboard, Samsung, SwiftKey): Fully wired Compose rich content receiving (`Modifier.contentReceiver` with `TextFieldState`) to enable direct insertion of animated GIFs and stickers from software keyboards.\n• 02 Global Animated GIF Decoding (Coil): Implemented `ImageLoaderFactory` in `ChessApp` registering `ImageDecoderDecoder` and `GifDecoder` for smooth 60fps looping of animated keyboard GIFs.\n• 03 Uncompressed GIF Stream Delivery: Bypassed lossy JPEG compression in the media pipeline for GIFs, preserving original animation frames and uploading them as pristine `.gif` files.\n• 04 Google Maps Location Sharing Hub: Replaced manual coordinate typing with an interactive location sharing hub featuring automatic device GPS acquisition, live accuracy telemetry (±8m), and reverse geocoding to human street addresses.\n• 05 Landmark & Address Search: Added live forward geocoding allowing users to search any landmark, city, or address on Google Maps and place a pin.\n• 06 Visual Map Message Cards: Replaced plain location text with interactive visual map canvas cards featuring glowing location pins, 'Google Maps' direct viewer, and turn-by-turn 'Navigate' driving directions.",
+  "versionCode": 83,
+  "versionName": "3.17.1",
+  "tagName": "v3.17.1",
+  "releaseTitle": "ATalk v3.17.1 — Chronological Message Sync & Input Reliability Fix",
+  "releaseNotes": "• 01 Chronological Order & Insertion Integrity: Fixed out-of-order display where delayed incoming or server-synced messages were appended at the bottom instead of ordered strictly by creation epoch timestamp.\n• 02 Viewport Position Preservation: Eliminated list clearing during message reordering, ensuring LazyColumn scroll position remains stable and never resets to months-old messages.\n• 03 Real-Time Keyboard Input Synchronization: Fixed state sync between TextFieldState and Compose text observers, ensuring send buttons activate immediately upon typing and sent messages transmit cleanly.\n• 04 Optimistic Chronological Insertion: Outgoing messages now insert immediately at their correct chronological timestamp position with smooth auto-scroll to the bottom.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37449478,
-  "sha256": "b9ebcf8ceb627237681463036f1b12c11700f7a9b490fe9047b7e01f1b86ca2b",
-  "publishedAt": "2026-11-16T08:25:00Z"
+  "apkSizeBytes": 37452106,
+  "sha256": "edce8114cb0d8425010d0dd7503f865de2f6a81527536b864cd9211d404a88b2",
+  "publishedAt": "2026-11-16T11:16:00Z"
 }

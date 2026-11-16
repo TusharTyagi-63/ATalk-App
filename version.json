@@ -1,12 +1,12 @@
 {
-  "versionCode": 80,
-  "versionName": "3.16.0",
-  "tagName": "v3.16.0",
-  "releaseTitle": "ATalk v3.16.0 — Complete Security & Anti-Attack Hardening Release",
-  "releaseNotes": "• 01 Cryptographic PIN & Vault Security (PBKDF2): Upgraded the Secret Vault PIN hashing from plain SHA-256 to PBKDF2 with HMAC-SHA256, 10,000 iterations, and a cryptographically secure 16-byte per-user salt. Fully eliminates rainbow-table, dictionary, and GPU-accelerated hash inversion.\n• 02 Vault Anti-Brute-Force & Lockout System: Built active exponential backoff and lockout protection into the PIN unlock dialog (30s after 5 failed attempts, 2m after 8, 5m after 10). Failed attempt counters and timestamps are cryptographically enforced across app reboots.\n• 03 Supabase Cloud Database & RLS Isolation: Migrated sensitive user recovery credentials out of the public profiles directory into an isolated private table (`public.user_security_credentials`) with strict RLS (`auth.uid() = user_id`). Completely prevents credential harvesting and profile scraping.\n• 04 Broken Object-Level Authorization (BOLA) Elimination: Hardened all direct database procedures (`send_message_direct`, `get_conversation_messages`, `delete_message_direct`, `set_user_password`) to strictly enforce caller identity verification (`auth.uid()`) and room membership checks. Unauthorized users can no longer read or inject messages into arbitrary conversations.\n• 05 Storage Bucket Hardening: Sealed `chat-attachments` storage bucket against unauthenticated anonymous uploads and tampering; updates and deletions are restricted to verified object owners (`owner = auth.uid()`).\n• 06 Network Security Config & Trust Anchor Protection: Implemented Android Network Security Configuration prohibiting all cleartext HTTP traffic across the application and restricting trust anchors strictly to system certificate authorities, thwarting Man-in-the-Middle (MitM) attacks.\n• 07 OTA Update Package Integrity (SHA-256): Hardened the in-app update installer to download APKs strictly to private internal app cache and verify cryptographic SHA-256 checksums before initiating package installation, eliminating malicious APK spoofing and MITM injection.\n• 08 Search Path Hijacking Prevention: Pinned `search_path = public, auth, pg_temp` across all SECURITY DEFINER functions, resolving 100% of Supabase database advisor security warnings.",
+  "versionCode": 81,
+  "versionName": "3.16.1",
+  "tagName": "v3.16.1",
+  "releaseTitle": "ATalk v3.16.1 — Real-Time Delivery & Chronological Message Ordering Fix",
+  "releaseNotes": "• 01 Chronological Message Ordering: Fixed out-of-order message display by adding epoch millisecond timestamps (`timestampEpochMs`) to message bubbles and implementing automatic chronological insertion in the chat room.\n• 02 Message Sync & Delivery Fix: Fixed Supabase database function column ambiguity (`column reference 'conversation_id' is ambiguous`) across `get_conversation_messages_v2`, `get_conversation_messages_delta`, and `send_message_direct`, restoring 100% reliable instant message sending and receiving.\n• 03 Public Room Delivery: Enabled direct messaging and reading for the general public conversation without requiring pre-existing room membership.\n• 04 Realtime Sync & Offline Cache: Cached messages and periodic delta synchronization now sort strictly by timestamp upon hydration, pull-to-refresh, and live socket arrival.\n• 05 Security Audit Implementation: Retained all PBKDF2 cryptographic vault hashing, lockout defenses, network security config, and BOLA prevention from v3.16.0.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37380222,
-  "sha256": "75c3587632907942a1b5c0a2621d5ae80307063a16b70b660be86917ca5bb68b",
-  "publishedAt": "2026-11-16T06:22:00Z"
+  "apkSizeBytes": 37381154,
+  "sha256": "d99e16325cfe508ccb3b5575ced7fcc131d103041f8db767346b518832811038",
+  "publishedAt": "2026-11-16T06:58:00Z"
 }

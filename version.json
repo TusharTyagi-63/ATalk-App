@@ -1,12 +1,12 @@
 {
-  "versionCode": 81,
-  "versionName": "3.16.1",
-  "tagName": "v3.16.1",
-  "releaseTitle": "ATalk v3.16.1 — Real-Time Delivery & Chronological Message Ordering Fix",
-  "releaseNotes": "• 01 Chronological Message Ordering: Fixed out-of-order message display by adding epoch millisecond timestamps (`timestampEpochMs`) to message bubbles and implementing automatic chronological insertion in the chat room.\n• 02 Message Sync & Delivery Fix: Fixed Supabase database function column ambiguity (`column reference 'conversation_id' is ambiguous`) across `get_conversation_messages_v2`, `get_conversation_messages_delta`, and `send_message_direct`, restoring 100% reliable instant message sending and receiving.\n• 03 Public Room Delivery: Enabled direct messaging and reading for the general public conversation without requiring pre-existing room membership.\n• 04 Realtime Sync & Offline Cache: Cached messages and periodic delta synchronization now sort strictly by timestamp upon hydration, pull-to-refresh, and live socket arrival.\n• 05 Security Audit Implementation: Retained all PBKDF2 cryptographic vault hashing, lockout defenses, network security config, and BOLA prevention from v3.16.0.",
+  "versionCode": 82,
+  "versionName": "3.17.0",
+  "tagName": "v3.17.0",
+  "releaseTitle": "ATalk v3.17.0 — Keyboard GIF Insertion & Google Maps Location Sharing Hub",
+  "releaseNotes": "• 01 Keyboard GIF Insertion (Gboard, Samsung, SwiftKey): Fully wired Compose rich content receiving (`Modifier.contentReceiver` with `TextFieldState`) to enable direct insertion of animated GIFs and stickers from software keyboards.\n• 02 Global Animated GIF Decoding (Coil): Implemented `ImageLoaderFactory` in `ChessApp` registering `ImageDecoderDecoder` and `GifDecoder` for smooth 60fps looping of animated keyboard GIFs.\n• 03 Uncompressed GIF Stream Delivery: Bypassed lossy JPEG compression in the media pipeline for GIFs, preserving original animation frames and uploading them as pristine `.gif` files.\n• 04 Google Maps Location Sharing Hub: Replaced manual coordinate typing with an interactive location sharing hub featuring automatic device GPS acquisition, live accuracy telemetry (±8m), and reverse geocoding to human street addresses.\n• 05 Landmark & Address Search: Added live forward geocoding allowing users to search any landmark, city, or address on Google Maps and place a pin.\n• 06 Visual Map Message Cards: Replaced plain location text with interactive visual map canvas cards featuring glowing location pins, 'Google Maps' direct viewer, and turn-by-turn 'Navigate' driving directions.",
   "apkDownloadUrl": "https://raw.githubusercontent.com/TusharTyagi-63/ATalk-App/main/ATalk-latest.apk",
   "apkFileName": "ATalk-latest.apk",
-  "apkSizeBytes": 37381154,
-  "sha256": "d99e16325cfe508ccb3b5575ced7fcc131d103041f8db767346b518832811038",
-  "publishedAt": "2026-11-16T06:58:00Z"
+  "apkSizeBytes": 37449478,
+  "sha256": "b9ebcf8ceb627237681463036f1b12c11700f7a9b490fe9047b7e01f1b86ca2b",
+  "publishedAt": "2026-11-16T08:25:00Z"
 }
